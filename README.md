@@ -24,6 +24,30 @@ Interface language: Russian.
 
 ## What is in it
 
+**New game.** The player picks one of six states on a screen with a painted
+landscape, a motto and a short history for each, then shapes the hero in a
+character editor: body, face, eyes and hair, with sliders for face shape, eye
+presets, skin tones and hair colours, and dice for a random look. The same
+randomiser gives every soldier in the world a face of their own.
+
+![Faction choice](docs/showcase/5-new-game.jpg)
+![Character editor](docs/showcase/6-editor.jpg)
+
+**Hero.** The hero started as concept sheets drawn in ChatGPT (look, body types,
+hair and beards). The 3D body was reshaped by script from the open Blender Studio
+base mesh to match them, on a Mixamo-compatible skeleton, with 11 face shape keys
+and one skin texture tinted by a palette.
+
+![Hero](docs/showcase/4-hero.jpg)
+
+**Towns and the market.** Entering a settlement needs no separate scene: the
+camera circles its 3D model and the background goes soft. The menu depends on the
+type of place, and every place has its own hand-written description. The market
+follows Bannerlord: party stock on the left, goods on the right, the hero's figure
+with equipment slots in the middle, 24 goods with icons.
+
+![Towns and market](docs/showcase/3-towns.jpg)
+
 **Campaign map.** Six states, each with 7 towns, 6 castles and 20 villages (the
 Grimian Empire in the centre has 9 / 7 / 24). Settlements are placed to match each
 state's lore and checked automatically for slopes, water, crowding and
@@ -49,8 +73,9 @@ lighting presets, and faction banners over every settlement.
 
 | | |
 |---|---|
-| ![Before and after](docs/showcase/instagram/02-before-after.jpg) | ![Six states](docs/showcase/instagram/03-six-states.jpg) |
-| ![Water gates](docs/showcase/instagram/04-rivers.jpg) | ![Ground](docs/showcase/instagram/05-ground.jpg) |
+| ![Hero concepts](docs/showcase/instagram/04-concepts.jpg) | ![Six states](docs/showcase/instagram/08-six-states.jpg) |
+| ![Before and after](docs/showcase/instagram/09-before-after.jpg) | ![Water gates](docs/showcase/instagram/10-rivers.jpg) |
+| ![Ground](docs/showcase/instagram/11-ground.jpg) | ![Banners](docs/showcase/instagram/12-map.jpg) |
 
 ## Requirements
 

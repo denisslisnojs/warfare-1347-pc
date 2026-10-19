@@ -50,17 +50,19 @@ def wrap(draw, text, fnt, width):
     return lines
 
 
-def framed(canvas, src, crop, box, label=None):
+def framed(canvas, src, crop, box, label=None, fit=False):
     x0, y0, x1, y1 = box
     img = Image.open(os.path.join(DIR, "raw", src)).convert("RGB").crop(tuple(crop))
     tw, th = x1 - x0 - 12, y1 - y0 - 12
-    scale = max(tw / img.width, th / img.height)
+    scale = (min if fit else max)(tw / img.width, th / img.height)
     img = img.resize((round(img.width * scale), round(img.height * scale)), Image.LANCZOS)
-    left, top = (img.width - tw) // 2, (img.height - th) // 2
-    img = img.crop((left, top, left + tw, top + th))
     d = ImageDraw.Draw(canvas)
     d.rectangle(box, fill=(14, 10, 8), outline=GOLD_DARK, width=2)
-    canvas.paste(img, (x0 + 6, y0 + 6))
+    if fit:
+        canvas.paste(img, (x0 + 6 + (tw - img.width) // 2, y0 + 6 + (th - img.height) // 2))
+    else:
+        left, top = (img.width - tw) // 2, (img.height - th) // 2
+        canvas.paste(img.crop((left, top, left + tw, top + th)), (x0 + 6, y0 + 6))
     if label:
         f = font("AlegreyaSC-Regular.ttf", 26)
         tw2 = d.textlength(label, font=f)
@@ -93,7 +95,7 @@ def slide(data, index, total, footer):
     img_bottom = H - 110 - text_h - 36
     images = data["images"]
     if data["layout"] in ("cover", "single"):
-        framed(canvas, images[0]["src"], images[0]["crop"], (MARGIN, y, W - MARGIN, img_bottom), images[0].get("label"))
+        framed(canvas, images[0]["src"], images[0]["crop"], (MARGIN, y, W - MARGIN, img_bottom), images[0].get("label"), images[0].get("fit", False))
     elif data["layout"] == "stack":
         mid = (y + img_bottom) // 2
         framed(canvas, images[0]["src"], images[0]["crop"], (MARGIN, y, W - MARGIN, mid - 8), images[0].get("label"))
