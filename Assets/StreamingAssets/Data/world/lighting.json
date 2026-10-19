@@ -1,0 +1,148 @@
+{
+  "active": "haze",
+  "shots": [
+    60,
+    330,
+    1400
+  ],
+  "presets": [
+    {
+      "id": "original",
+      "name": "Исходный",
+      "sunPitch": 42,
+      "sunYaw": -35,
+      "sunIntensity": 1.55,
+      "sunColor": [
+        1.0,
+        0.93,
+        0.82
+      ],
+      "shadowStrength": 0.82,
+      "softShadows": "usePipelineSettings",
+      "ambient": "skybox",
+      "ambientIntensity": 1.05,
+      "reflectionIntensity": 0.6
+    },
+    {
+      "id": "light",
+      "name": "Новый свет",
+      "sunPitch": 40,
+      "sunYaw": -38,
+      "sunIntensity": 1.75,
+      "sunColor": [
+        1.0,
+        0.92,
+        0.8
+      ],
+      "shadowStrength": 0.72,
+      "softShadows": "high",
+      "ambient": "trilight",
+      "ambientSky": [
+        0.5,
+        0.56,
+        0.66
+      ],
+      "ambientEquator": [
+        0.44,
+        0.45,
+        0.41
+      ],
+      "ambientGround": [
+        0.26,
+        0.24,
+        0.2
+      ],
+      "reflectionIntensity": 0.45
+    },
+    {
+      "id": "grade",
+      "name": "Новый свет и цвет",
+      "sunPitch": 40,
+      "sunYaw": -38,
+      "sunIntensity": 1.75,
+      "sunColor": [
+        1.0,
+        0.92,
+        0.8
+      ],
+      "shadowStrength": 0.72,
+      "softShadows": "high",
+      "ambient": "trilight",
+      "ambientSky": [
+        0.5,
+        0.56,
+        0.66
+      ],
+      "ambientEquator": [
+        0.44,
+        0.45,
+        0.41
+      ],
+      "ambientGround": [
+        0.26,
+        0.24,
+        0.2
+      ],
+      "reflectionIntensity": 0.45,
+      "grade": {
+        "exposure": 0.2,
+        "contrast": 14,
+        "saturation": 3,
+        "temperature": 4,
+        "tint": 1,
+        "yellowGreenSaturation": 0.42,
+        "yellowGreenHue": 0.5
+      }
+    },
+    {
+      "id": "haze",
+      "name": "Свет, цвет и лёгкая дымка",
+      "sunPitch": 40,
+      "sunYaw": -38,
+      "sunIntensity": 1.75,
+      "sunColor": [
+        1.0,
+        0.92,
+        0.8
+      ],
+      "shadowStrength": 0.72,
+      "softShadows": "high",
+      "ambient": "trilight",
+      "ambientSky": [
+        0.5,
+        0.56,
+        0.66
+      ],
+      "ambientEquator": [
+        0.44,
+        0.45,
+        0.41
+      ],
+      "ambientGround": [
+        0.26,
+        0.24,
+        0.2
+      ],
+      "reflectionIntensity": 0.45,
+      "grade": {
+        "exposure": 0.2,
+        "contrast": 14,
+        "saturation": 3,
+        "temperature": 4,
+        "tint": 1,
+        "yellowGreenSaturation": 0.42,
+        "yellowGreenHue": 0.5
+      },
+      "fogStart": 1.7,
+      "fogEnd": 7,
+      "fogFollowsCamera": true,
+      "fogColor": [
+        0.78,
+        0.82,
+        0.86
+      ],
+      "blurStart": 8000,
+      "blurEnd": 9000
+    }
+  ]
+}

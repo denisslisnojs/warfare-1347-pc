@@ -1,0 +1,62 @@
+{
+ "skinTexture": "Hero_Skin",
+ "skinBase": "#FBCCA9",
+ "skinSmoothness": 0.38,
+ "skin": [
+  {"id": "light", "name": "Светлая", "nameEn": "Light", "color": "#FBCCA9"},
+  {"id": "peach", "name": "Персиковая", "nameEn": "Peach", "color": "#E0AC8A"},
+  {"id": "tan", "name": "Смуглая", "nameEn": "Tan", "color": "#BC8660"},
+  {"id": "dark", "name": "Тёмная", "nameEn": "Dark", "color": "#84583C"}
+ ],
+ "hair": [
+  {"id": "black", "name": "Чёрные", "nameEn": "Black", "color": "#1E1A18"},
+  {"id": "darkbrown", "name": "Тёмно-каштановые", "nameEn": "Dark brown", "color": "#3B2A20"},
+  {"id": "brown", "name": "Каштановые", "nameEn": "Brown", "color": "#523D2D"},
+  {"id": "auburn", "name": "Медные", "nameEn": "Auburn", "color": "#7E4529"},
+  {"id": "red", "name": "Рыжие", "nameEn": "Red", "color": "#A0522D"},
+  {"id": "fairbrown", "name": "Русые", "nameEn": "Light brown", "color": "#9A7650"},
+  {"id": "blond", "name": "Светлые", "nameEn": "Blond", "color": "#CDAF7C"},
+  {"id": "grey", "name": "Седые", "nameEn": "Grey", "color": "#9A9590"}
+ ],
+ "soldierFaceSpread": 0.5,
+ "hairStyles": [
+  {"id": "none", "name": "Без волос", "nameEn": "Bald"},
+  {"id": "Hair_Tousled", "name": "Растрёпанные", "nameEn": "Tousled"},
+  {"id": "Hair_Long", "name": "Длинные", "nameEn": "Long"},
+  {"id": "Hair_Cropped", "name": "Короткая стрижка", "nameEn": "Cropped"},
+  {"id": "Hair_Bowl", "name": "Под горшок", "nameEn": "Bowl cut"},
+  {"id": "Hair_Balding", "name": "Лысеющий", "nameEn": "Balding"}
+ ],
+ "beards": [
+  {"id": "none", "name": "Без бороды", "nameEn": "None"},
+  {"id": "Beard_Stubble", "name": "Щетина", "nameEn": "Stubble"},
+  {"id": "Beard_Short", "name": "Короткая", "nameEn": "Short"},
+  {"id": "Beard_Full", "name": "Окладистая", "nameEn": "Full"},
+  {"id": "Beard_Goatee", "name": "Клинышком", "nameEn": "Goatee"}
+ ],
+ "moustaches": [
+  {"id": "none", "name": "Без усов", "nameEn": "None"},
+  {"id": "Moustache_Short", "name": "Усы", "nameEn": "Moustache"},
+  {"id": "Moustache_Droopy", "name": "Вислые усы", "nameEn": "Drooping"}
+ ],
+ "face": [
+  {"id": "FaceWide", "name": "Ширина лица", "nameEn": "Face width"},
+  {"id": "JawHeavy", "name": "Челюсть", "nameEn": "Jaw"},
+  {"id": "ChinStrong", "name": "Подбородок", "nameEn": "Chin"},
+  {"id": "Cheekbones", "name": "Скулы", "nameEn": "Cheekbones"},
+  {"id": "NoseLong", "name": "Длина носа", "nameEn": "Nose length"},
+  {"id": "NoseHump", "name": "Горбинка", "nameEn": "Nose bridge"},
+  {"id": "BrowHeavy", "name": "Надбровные дуги", "nameEn": "Brow ridge"},
+  {"id": "LipsFull", "name": "Губы", "nameEn": "Lips"},
+  {"id": "EyesNarrow", "name": "Разрез глаз", "nameEn": "Eye opening"},
+  {"id": "EyesTilt", "name": "Уголки глаз", "nameEn": "Eye corners"},
+  {"id": "EyesLong", "name": "Длина глаз", "nameEn": "Eye length"}
+ ],
+ "eyePresets": [
+  {"id": "normal", "name": "Обычные", "nameEn": "Normal", "keys": {}},
+  {"id": "narrow", "name": "Узкие", "nameEn": "Narrow", "keys": {"EyesNarrow": 0.8}},
+  {"id": "open", "name": "Широко открытые", "nameEn": "Wide open", "keys": {"EyesNarrow": -0.7}},
+  {"id": "almond", "name": "Миндалевидные", "nameEn": "Almond", "keys": {"EyesTilt": 0.8, "EyesNarrow": 0.35, "EyesLong": 0.5}},
+  {"id": "sad", "name": "Опущенные уголки", "nameEn": "Downturned", "keys": {"EyesTilt": -0.8, "EyesNarrow": 0.15}}
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "slots": [
+  {"id": "head", "name": "Шлем", "nameEn": "Helmet", "column": "left", "icon": "icon_helmets"},
+  {"id": "body", "name": "Доспех", "nameEn": "Body armour", "column": "left", "icon": "icon_body"},
+  {"id": "gloves", "name": "Перчатки", "nameEn": "Gloves", "column": "left", "icon": "icon_gloves"},
+  {"id": "legs", "name": "Поножи", "nameEn": "Leg armour", "column": "left", "icon": "icon_legs"},
+  {"id": "weapon1", "name": "Оружие 1", "nameEn": "Weapon 1", "column": "right", "icon": "icon_melee"},
+  {"id": "weapon2", "name": "Оружие 2", "nameEn": "Weapon 2", "column": "right", "icon": "icon_melee"},
+  {"id": "weapon3", "name": "Оружие 3", "nameEn": "Weapon 3", "column": "right", "icon": "icon_melee"},
+  {"id": "weapon4", "name": "Оружие 4", "nameEn": "Weapon 4", "column": "right", "icon": "icon_melee"},
+  {"id": "mount", "name": "Конь", "nameEn": "Mount", "column": "bottom", "icon": "icon_mounts"},
+  {"id": "barding", "name": "Конская броня", "nameEn": "Horse armour", "column": "bottom", "icon": "icon_barding"}
+ ]
+}

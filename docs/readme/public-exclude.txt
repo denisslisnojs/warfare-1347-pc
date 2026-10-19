@@ -1,0 +1,15 @@
+Assets/Art/Animations
+Assets/Art/Animations.meta
+Assets/Art/Environment/Creatures
+Assets/Art/Environment/Creatures.meta
+Assets/Resources/Creatures
+Assets/Resources/Creatures.meta
+Assets/Art/Environment/World/WorldTree_p_*
+Assets/Art/Environment/World/WorldShip_*
+Assets/Art/Environment/World/WorldLandmark_*
+ArtSource/packs/LowPoly_Tree_Collection_01_fbx.FBX
+ArtSource/packs/Rocks_series_02.fbx
+ArtSource/packs/animals
+ArtSource/packs/boats
+ArtSource/packs/ruins
+ArtSource/packs/windmill

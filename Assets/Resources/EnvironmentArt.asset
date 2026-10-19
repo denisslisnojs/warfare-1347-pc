@@ -1,0 +1,409 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e69e48d006843442a97787ae8216c31, type: 3}
+  m_Name: EnvironmentArt
+  m_EditorClassIdentifier: Warfare.Client::Warfare.Client.EnvironmentArt
+  Props:
+  - Id: Bush
+    Prefab: {fileID: 919132149155446097, guid: 1c70c737185b42a4b8cdf04a78ee6b6d, type: 3}
+  - Id: Cart
+    Prefab: {fileID: 919132149155446097, guid: 9c1f7039adcb3f0459c3434900e2ed29, type: 3}
+  - Id: Fence
+    Prefab: {fileID: 919132149155446097, guid: 328b924ab5a644c4d835cfca8911cc31, type: 3}
+  - Id: Haystack
+    Prefab: {fileID: 919132149155446097, guid: 6d403ae294f767f49a45c7fa2db8ab9d, type: 3}
+  - Id: Hill
+    Prefab: {fileID: 919132149155446097, guid: bdafdafd5bea3aa44a529b5bdb2710df, type: 3}
+  - Id: House_Long
+    Prefab: {fileID: 919132149155446097, guid: 40cd6a22df109f549b7c0395870f6658, type: 3}
+  - Id: House_Small
+    Prefab: {fileID: 919132149155446097, guid: e0a441be3a96ff8428058e5df8432154, type: 3}
+  - Id: Rock
+    Prefab: {fileID: 919132149155446097, guid: 89f584bd72723fb4f995124acbf5ac4a, type: 3}
+  - Id: Tree_Pine
+    Prefab: {fileID: 919132149155446097, guid: ce6e0cb688cbd8c458a3ab161b0ccdff, type: 3}
+  - Id: Tree_Round
+    Prefab: {fileID: 919132149155446097, guid: 8fe69121b00fce64ab59aacab9f4455e, type: 3}
+  - Id: Tree_Round_Big
+    Prefab: {fileID: 919132149155446097, guid: 9b53ee4546adc764db6962b369e7c67b, type: 3}
+  - Id: Well
+    Prefab: {fileID: 919132149155446097, guid: 50dc8def74ff9d741b90c911e85f0408, type: 3}
+  - Id: WorldBridge_stone
+    Prefab: {fileID: 919132149155446097, guid: 45ce48182bd06974dabf2c7c96873455, type: 3}
+  - Id: WorldBridge_wood
+    Prefab: {fileID: 919132149155446097, guid: 3e64430d0576bd447ab256751c33e026, type: 3}
+  - Id: WorldCastle
+    Prefab: {fileID: 919132149155446097, guid: 849c53abe02948d45879ceb2ca5e4123, type: 3}
+  - Id: WorldCastle_azhar_desert
+    Prefab: {fileID: 919132149155446097, guid: b5ff4840c02cb9c48a167df47f31b1e2, type: 3}
+  - Id: WorldCastle_azhar_frontier
+    Prefab: {fileID: 919132149155446097, guid: f717567cbffa66f4a91980aedd89debb, type: 3}
+  - Id: WorldCastle_azhar_palace
+    Prefab: {fileID: 919132149155446097, guid: bfac6bd71ecfff342bb4b52ad0a469cd, type: 3}
+  - Id: WorldCastle_azhar_ribat
+    Prefab: {fileID: 919132149155446097, guid: bd2d9af8a20111d4ead26e08a890afb8, type: 3}
+  - Id: WorldCastle_azhar_rock
+    Prefab: {fileID: 919132149155446097, guid: 92596417d20f5444bb3cc09b53195fc0, type: 3}
+  - Id: WorldCastle_azhar_tower
+    Prefab: {fileID: 919132149155446097, guid: 9c4da1ef1e7cebb4a82a4bccbd550d75, type: 3}
+  - Id: WorldCastle_grim_camp
+    Prefab: {fileID: 919132149155446097, guid: de4cddd58e186cb46979236befb775ea, type: 3}
+  - Id: WorldCastle_grim_citadel
+    Prefab: {fileID: 919132149155446097, guid: f14fc23eebe1eb9499a181f22612d08a, type: 3}
+  - Id: WorldCastle_grim_fort
+    Prefab: {fileID: 919132149155446097, guid: 8e25029d583258d4a91d5b297c71a225, type: 3}
+  - Id: WorldCastle_grim_gate
+    Prefab: {fileID: 919132149155446097, guid: 97a304d3c4849b04797660006fc7490d, type: 3}
+  - Id: WorldCastle_grim_pass
+    Prefab: {fileID: 919132149155446097, guid: 39711d4a14a194b42b1230ee2ec77b1b, type: 3}
+  - Id: WorldCastle_grim_red
+    Prefab: {fileID: 919132149155446097, guid: 8ae76dacb291e0141af360cddf144117, type: 3}
+  - Id: WorldCastle_grim_towers
+    Prefab: {fileID: 919132149155446097, guid: c3481c85ece485a4dbe91dc320ec38ae, type: 3}
+  - Id: WorldCastle_khordan_fortress
+    Prefab: {fileID: 919132149155446097, guid: 67091f69a963f3e4aa018d514291c118, type: 3}
+  - Id: WorldCastle_khordan_gate
+    Prefab: {fileID: 919132149155446097, guid: cf96eddb3e2058248a75143658b0dc45, type: 3}
+  - Id: WorldCastle_khordan_mountain
+    Prefab: {fileID: 919132149155446097, guid: 73c4567a58a953b4695231ba91d77fab, type: 3}
+  - Id: WorldCastle_khordan_stavka
+    Prefab: {fileID: 919132149155446097, guid: b727e24c308995b48b0056670526dc2b, type: 3}
+  - Id: WorldCastle_khordan_wall
+    Prefab: {fileID: 919132149155446097, guid: 09974f15b82799b4993761938ab990d9, type: 3}
+  - Id: WorldCastle_khordan_watch
+    Prefab: {fileID: 919132149155446097, guid: 896042888d8da4c4e87fa7e21e4ede68, type: 3}
+  - Id: WorldCastle_vallerois_chateau
+    Prefab: {fileID: 919132149155446097, guid: 94b7938aa09a8fc449de4674915f1c35, type: 3}
+  - Id: WorldCastle_vallerois_fortress
+    Prefab: {fileID: 919132149155446097, guid: ee095c8355b84af47a299e2132f8af94, type: 3}
+  - Id: WorldCastle_vallerois_grand
+    Prefab: {fileID: 919132149155446097, guid: 9a1aa1ee377ce354db885cd98b1b7e25, type: 3}
+  - Id: WorldCastle_vallerois_keep
+    Prefab: {fileID: 919132149155446097, guid: 4183348f4b8708a48bbe299da2e01858, type: 3}
+  - Id: WorldCastle_vallerois_moat
+    Prefab: {fileID: 919132149155446097, guid: 7e98513b5c807134c8043a48955f8958, type: 3}
+  - Id: WorldCastle_varden_mixed
+    Prefab: {fileID: 919132149155446097, guid: a572ffeee7e710446a57a2ccfe11a38a, type: 3}
+  - Id: WorldCastle_varden_monastery
+    Prefab: {fileID: 919132149155446097, guid: 3ccc90670a72c8c4384d4ccfb748e3db, type: 3}
+  - Id: WorldCastle_varden_ostrog
+    Prefab: {fileID: 919132149155446097, guid: abe10993227039a4ba6b6d7321819913, type: 3}
+  - Id: WorldCastle_varden_stone
+    Prefab: {fileID: 919132149155446097, guid: 072014e77248ab44f9f0462b986fc5e9, type: 3}
+  - Id: WorldCastle_vinland_beacons
+    Prefab: {fileID: 919132149155446097, guid: f70101e627f18d74e87968e05d77f097, type: 3}
+  - Id: WorldCastle_vinland_border
+    Prefab: {fileID: 919132149155446097, guid: 02d2697de31726242a7284c73c1cf892, type: 3}
+  - Id: WorldCastle_vinland_cape
+    Prefab: {fileID: 919132149155446097, guid: 85725be0a72b8534f89307b867484ee5, type: 3}
+  - Id: WorldCastle_vinland_fjord
+    Prefab: {fileID: 919132149155446097, guid: e88e68a03ada7f943b0612fd6576d6b4, type: 3}
+  - Id: WorldCastle_vinland_naval
+    Prefab: {fileID: 919132149155446097, guid: cc103a56eccb39b42bcc6d98cbd31b1e, type: 3}
+  - Id: WorldCastle_vinland_royal
+    Prefab: {fileID: 919132149155446097, guid: e95d4148e068b20419af325ba5526d66, type: 3}
+  - Id: WorldCreature_Bull
+    Prefab: {fileID: 919132149155446097, guid: 6112abdeeb0d63843b5664020c518cde, type: 3}
+  - Id: WorldCreature_Cow
+    Prefab: {fileID: 919132149155446097, guid: d4a101f59d6014344b7c61d87121c26f, type: 3}
+  - Id: WorldCreature_Deer
+    Prefab: {fileID: 919132149155446097, guid: 42b5a083cac21544d919adfedf17b1fe, type: 3}
+  - Id: WorldCreature_Donkey
+    Prefab: {fileID: 919132149155446097, guid: cf793bb8820a08942bc09ec2fee28a36, type: 3}
+  - Id: WorldCreature_Fox
+    Prefab: {fileID: 919132149155446097, guid: 43309825d14fcf74094567665ce8ac1d, type: 3}
+  - Id: WorldCreature_Horse
+    Prefab: {fileID: 919132149155446097, guid: 753750a6d36b6934c9f948fa9ef6be7a, type: 3}
+  - Id: WorldCreature_Horse_White
+    Prefab: {fileID: 919132149155446097, guid: 3c01820ecc3e28a4a8127ff39a11ce32, type: 3}
+  - Id: WorldCreature_Stag
+    Prefab: {fileID: 919132149155446097, guid: 1bbee0e232971ce49bff320c2524dfbf, type: 3}
+  - Id: WorldCreature_Wolf
+    Prefab: {fileID: 919132149155446097, guid: c64908958b6f81049b02744527ef9f8d, type: 3}
+  - Id: WorldHero_Banner_standard
+    Prefab: {fileID: 919132149155446097, guid: 6e492977a0899454c97ea17bd5b083f9, type: 3}
+  - Id: WorldHero_Body_mail
+    Prefab: {fileID: 919132149155446097, guid: 3047e4d5e4f8e7c4dba77a21794a1368, type: 3}
+  - Id: WorldHero_Head_bascinet
+    Prefab: {fileID: 919132149155446097, guid: a3c1804789e7c204ba4d463b2197290c, type: 3}
+  - Id: WorldHero_Mount_horse
+    Prefab: {fileID: 919132149155446097, guid: c3d2d6758095bd34386b95c2d456f08c, type: 3}
+  - Id: WorldHero_Shield_heater
+    Prefab: {fileID: 919132149155446097, guid: 9fcf8c6dba696be408394b267ed7d60e, type: 3}
+  - Id: WorldLandmark_castle_ruins
+    Prefab: {fileID: 919132149155446097, guid: d4e66860c6a107545a0b54fd827a562e, type: 3}
+  - Id: WorldLandmark_castle_wall
+    Prefab: {fileID: 919132149155446097, guid: 2d6f6fa925417bc4685113b365ae7c77, type: 3}
+  - Id: WorldLandmark_ruined_house
+    Prefab: {fileID: 919132149155446097, guid: 3da0273bed2d611448caee0c79caca3c, type: 3}
+  - Id: WorldLandmark_windmill
+    Prefab: {fileID: 919132149155446097, guid: cd4c4fedb688b6b4d965bc54f9f86dcd, type: 3}
+  - Id: WorldShip_boat
+    Prefab: {fileID: 919132149155446097, guid: 0780fe873e1999847be520a73f643a15, type: 3}
+  - Id: WorldShip_cog
+    Prefab: {fileID: 919132149155446097, guid: 46f2c3980f2ff694ebf59277699113d1, type: 3}
+  - Id: WorldShip_dhow
+    Prefab: {fileID: 919132149155446097, guid: 3c420901c19e04245a00467b961bec13, type: 3}
+  - Id: WorldShip_galley
+    Prefab: {fileID: 919132149155446097, guid: 13e75b837ec141844ae2cde56d4ef616, type: 3}
+  - Id: WorldShip_longship
+    Prefab: {fileID: 919132149155446097, guid: bbb7e8205b6f2b540a4765c37123b9ab, type: 3}
+  - Id: WorldTown
+    Prefab: {fileID: 919132149155446097, guid: 59f7f899d219a63489158e76187b024e, type: 3}
+  - Id: WorldTown_azhar_capital
+    Prefab: {fileID: 919132149155446097, guid: dc075df0d9419e341b9ddafef6c2374d, type: 3}
+  - Id: WorldTown_azhar_large
+    Prefab: {fileID: 919132149155446097, guid: f563108a440bd2f44a9a2c76ad240788, type: 3}
+  - Id: WorldTown_azhar_medium
+    Prefab: {fileID: 919132149155446097, guid: 192f8fb08f8aabd43a8f44fbadb2b701, type: 3}
+  - Id: WorldTown_grim_capital
+    Prefab: {fileID: 919132149155446097, guid: 543f81a10f3d7584ab4635317cec04bf, type: 3}
+  - Id: WorldTown_grim_large
+    Prefab: {fileID: 919132149155446097, guid: b781ad49e5d203d46afc8350cdf4540a, type: 3}
+  - Id: WorldTown_grim_medium
+    Prefab: {fileID: 919132149155446097, guid: 5869643af0e0e384095058e42865e958, type: 3}
+  - Id: WorldTown_khordan_capital
+    Prefab: {fileID: 919132149155446097, guid: 68707d20ea8e95b4884ca3340f52024b, type: 3}
+  - Id: WorldTown_khordan_large
+    Prefab: {fileID: 919132149155446097, guid: cb2bf1370d148c34a83f49048ad94901, type: 3}
+  - Id: WorldTown_khordan_medium
+    Prefab: {fileID: 919132149155446097, guid: 357df86668980a6428676124719de2c4, type: 3}
+  - Id: WorldTown_vallerois_capital
+    Prefab: {fileID: 919132149155446097, guid: 5b587de0c334e1943bcffbd05a40219b, type: 3}
+  - Id: WorldTown_vallerois_large
+    Prefab: {fileID: 919132149155446097, guid: c735fc9172513fd4ebb56bba7be4c552, type: 3}
+  - Id: WorldTown_vallerois_medium
+    Prefab: {fileID: 919132149155446097, guid: 0ed3ade1d8421c040b3293d9cda8c822, type: 3}
+  - Id: WorldTown_varden_capital
+    Prefab: {fileID: 919132149155446097, guid: 66ea44a5e19633747bee74f6c370fde6, type: 3}
+  - Id: WorldTown_varden_large
+    Prefab: {fileID: 919132149155446097, guid: ca676ca8765c74e47a491f981316b7c5, type: 3}
+  - Id: WorldTown_varden_medium
+    Prefab: {fileID: 919132149155446097, guid: 6314225a725a8c14f9b66e7115f340c4, type: 3}
+  - Id: WorldTown_vinland_capital
+    Prefab: {fileID: 919132149155446097, guid: f1e0dc7397067304b8fab98e1be7b1e8, type: 3}
+  - Id: WorldTown_vinland_large
+    Prefab: {fileID: 919132149155446097, guid: 99100e9f7c34d5647945d79322aae8e9, type: 3}
+  - Id: WorldTown_vinland_market
+    Prefab: {fileID: 919132149155446097, guid: d03161761a9cc0e469e4013fd62c8db2, type: 3}
+  - Id: WorldTown_vinland_medium
+    Prefab: {fileID: 919132149155446097, guid: 9e9990673f12cbe4688fb0019207b3eb, type: 3}
+  - Id: WorldTree_p_broad_122
+    Prefab: {fileID: 919132149155446097, guid: 6ae80944e9b697044b6dbffa0f701bf8, type: 3}
+  - Id: WorldTree_p_broad_122_lod
+    Prefab: {fileID: 919132149155446097, guid: 99d9d504d42d1714bbbbea4f13477eba, type: 3}
+  - Id: WorldTree_p_broad_131
+    Prefab: {fileID: 919132149155446097, guid: c94b11e61a6339b41bbfd3a55422f362, type: 3}
+  - Id: WorldTree_p_broad_131_lod
+    Prefab: {fileID: 919132149155446097, guid: 62bffe7b9cd3ec645a96ce85dd16c31a, type: 3}
+  - Id: WorldTree_p_broad_132
+    Prefab: {fileID: 919132149155446097, guid: b9fd4788f9acbc74c9ba9226d04d3db6, type: 3}
+  - Id: WorldTree_p_broad_132_lod
+    Prefab: {fileID: 919132149155446097, guid: 0a865d7364b4546458939bfcb3ba0b21, type: 3}
+  - Id: WorldTree_p_broad_134
+    Prefab: {fileID: 919132149155446097, guid: fae67f10fc5429b4783c8c7f5e67fc0c, type: 3}
+  - Id: WorldTree_p_broad_134_lod
+    Prefab: {fileID: 919132149155446097, guid: 1d69b568d61f219428d5d6c0b5fd5561, type: 3}
+  - Id: WorldTree_p_broad_193
+    Prefab: {fileID: 919132149155446097, guid: 5a767d89aaf5ede43b7ee6f978feb957, type: 3}
+  - Id: WorldTree_p_broad_193_lod
+    Prefab: {fileID: 919132149155446097, guid: 0ec5fd741cc854d4cbf77aaadfd18969, type: 3}
+  - Id: WorldTree_p_broad_65
+    Prefab: {fileID: 919132149155446097, guid: 11145f0694a763f49bfbe6a5a8617f9e, type: 3}
+  - Id: WorldTree_p_broad_65_lod
+    Prefab: {fileID: 919132149155446097, guid: a9018f3288ebb694f83da2e6a52ddfba, type: 3}
+  - Id: WorldTree_p_broad_70
+    Prefab: {fileID: 919132149155446097, guid: 347d5be410dfd5f4ead7674e9f5b5b51, type: 3}
+  - Id: WorldTree_p_broad_70_lod
+    Prefab: {fileID: 919132149155446097, guid: 9be88d82ebeb1854a9a00940979c0ad8, type: 3}
+  - Id: WorldTree_p_bush_97
+    Prefab: {fileID: 919132149155446097, guid: 51125e6048a6d884e816a2d06d41bad1, type: 3}
+  - Id: WorldTree_p_bush_97_lod
+    Prefab: {fileID: 919132149155446097, guid: 23345b9fede718b48b9bf8036e8b6601, type: 3}
+  - Id: WorldTree_p_bush_98
+    Prefab: {fileID: 919132149155446097, guid: 441aab82d3d67ae41b16afdd2c79ce23, type: 3}
+  - Id: WorldTree_p_bush_98_lod
+    Prefab: {fileID: 919132149155446097, guid: db6240c1fe6557d40a491f41ede4ba82, type: 3}
+  - Id: WorldTree_p_bush_99
+    Prefab: {fileID: 919132149155446097, guid: 7cf573cda9c3ca647a44a1c3a2d5b1c6, type: 3}
+  - Id: WorldTree_p_bush_99_lod
+    Prefab: {fileID: 919132149155446097, guid: 3328997500f59f146b17bbd90bef6951, type: 3}
+  - Id: WorldTree_p_cypress_95
+    Prefab: {fileID: 919132149155446097, guid: 308f11fa960818042828cbc1f209f475, type: 3}
+  - Id: WorldTree_p_cypress_95_lod
+    Prefab: {fileID: 919132149155446097, guid: 18b9e335adb97f64095318eafe9e850b, type: 3}
+  - Id: WorldTree_p_cypress_96
+    Prefab: {fileID: 919132149155446097, guid: 5b829bf5125fb9c499f7139866a055de, type: 3}
+  - Id: WorldTree_p_cypress_96_lod
+    Prefab: {fileID: 919132149155446097, guid: 40667fdda861bca4bb9fa0ab659c928c, type: 3}
+  - Id: WorldTree_p_dead_173
+    Prefab: {fileID: 919132149155446097, guid: 4a19ab0918df5f74a9974769e2e19384, type: 3}
+  - Id: WorldTree_p_dead_173_lod
+    Prefab: {fileID: 919132149155446097, guid: 15c28a50c9f68ba46b9099e4d1c43ee1, type: 3}
+  - Id: WorldTree_p_dead_176
+    Prefab: {fileID: 919132149155446097, guid: d18e0ba05ee62b848bce425a0e1ac870, type: 3}
+  - Id: WorldTree_p_dead_176_lod
+    Prefab: {fileID: 919132149155446097, guid: d64835f7151f50443a5fb9dc905f0dc7, type: 3}
+  - Id: WorldTree_p_dead_178
+    Prefab: {fileID: 919132149155446097, guid: 852a6125e5a2ccc44a8f6e897ea1273a, type: 3}
+  - Id: WorldTree_p_dead_178_lod
+    Prefab: {fileID: 919132149155446097, guid: 010ae08385a9e464a8ba86cb662a7e4e, type: 3}
+  - Id: WorldTree_p_dead_85
+    Prefab: {fileID: 919132149155446097, guid: 90de82814863cc34a9150d45639f2bf4, type: 3}
+  - Id: WorldTree_p_dead_85_lod
+    Prefab: {fileID: 919132149155446097, guid: 1c3ac146ba6908c4da133dc3891509e0, type: 3}
+  - Id: WorldTree_p_light_141
+    Prefab: {fileID: 919132149155446097, guid: 75f430f30772dfd44a56ba8fefdd00a4, type: 3}
+  - Id: WorldTree_p_light_141_lod
+    Prefab: {fileID: 919132149155446097, guid: 4a3eb2d3140ca1c42b9c33ba73264505, type: 3}
+  - Id: WorldTree_p_light_143
+    Prefab: {fileID: 919132149155446097, guid: d393ce7a159ac7f4ea849d3bb251508a, type: 3}
+  - Id: WorldTree_p_light_143_lod
+    Prefab: {fileID: 919132149155446097, guid: bedef76462e63c4499ec35c1cfb475e9, type: 3}
+  - Id: WorldTree_p_light_77
+    Prefab: {fileID: 919132149155446097, guid: 3ceaee1d56cb6874697ca9819776ecb4, type: 3}
+  - Id: WorldTree_p_light_77_lod
+    Prefab: {fileID: 919132149155446097, guid: aafc5fce2391e6d4ba14748d18c95aa0, type: 3}
+  - Id: WorldTree_p_light_79
+    Prefab: {fileID: 919132149155446097, guid: 97349de44b221e34cb94abe6145efbd6, type: 3}
+  - Id: WorldTree_p_light_79_lod
+    Prefab: {fileID: 919132149155446097, guid: 20ea4f729c058a540a55d273e28135b1, type: 3}
+  - Id: WorldTree_p_pine_86
+    Prefab: {fileID: 919132149155446097, guid: 5f4d49bb73670ca4ba16f2b21b3488c3, type: 3}
+  - Id: WorldTree_p_pine_86_lod
+    Prefab: {fileID: 919132149155446097, guid: 9e2a4977d8a2b724a86b060291713a3b, type: 3}
+  - Id: WorldTree_p_pine_88
+    Prefab: {fileID: 919132149155446097, guid: 1f3fc72c636aa394bb5446107c42928f, type: 3}
+  - Id: WorldTree_p_pine_88_lod
+    Prefab: {fileID: 919132149155446097, guid: 0b171696b4ddc9d47b34f5a519905cc2, type: 3}
+  - Id: WorldTree_p_pine_89
+    Prefab: {fileID: 919132149155446097, guid: ae5c46d941fb9644e923c6381eee6b34, type: 3}
+  - Id: WorldTree_p_pine_89_lod
+    Prefab: {fileID: 919132149155446097, guid: 8a4d77cc26335ca46bef8ebb6eb5125e, type: 3}
+  - Id: WorldTree_p_pine_93
+    Prefab: {fileID: 919132149155446097, guid: 4a0a1a0bf54b1684f9a274c1c30d1179, type: 3}
+  - Id: WorldTree_p_pine_93_lod
+    Prefab: {fileID: 919132149155446097, guid: a8ba6fb8ba6979e468d4e3571f13451d, type: 3}
+  - Id: WorldTree_p_rock_1
+    Prefab: {fileID: 919132149155446097, guid: ada027372c22fd643818f63d7ebfb448, type: 3}
+  - Id: WorldTree_p_rock_1_lod
+    Prefab: {fileID: 919132149155446097, guid: d3e03486a29a64947a3b6b270408d8de, type: 3}
+  - Id: WorldTree_p_rock_2
+    Prefab: {fileID: 919132149155446097, guid: ab4ad07bf4d13a548b3cf0228240e6be, type: 3}
+  - Id: WorldTree_p_rock_2_lod
+    Prefab: {fileID: 919132149155446097, guid: 43ee83a458b973444ac6dd8ae1895c0e, type: 3}
+  - Id: WorldTree_p_rock_3
+    Prefab: {fileID: 919132149155446097, guid: 7911fa0c6438fd542ae3bb748b808e2e, type: 3}
+  - Id: WorldTree_p_rock_3_lod
+    Prefab: {fileID: 919132149155446097, guid: c51b645cd6810a04a9fbd9021f9f4be9, type: 3}
+  - Id: WorldTree_p_rock_4
+    Prefab: {fileID: 919132149155446097, guid: 9da831925f010464e88c5f9e87577bf5, type: 3}
+  - Id: WorldTree_p_rock_4_lod
+    Prefab: {fileID: 919132149155446097, guid: c8659b8e4f4402747a33741d797982d8, type: 3}
+  - Id: WorldTree_p_rock_5
+    Prefab: {fileID: 919132149155446097, guid: c987883b26ac78244b543fef468a12c4, type: 3}
+  - Id: WorldTree_p_rock_5_lod
+    Prefab: {fileID: 919132149155446097, guid: cf0ad522075f12d4d8ed70b6dbd315fc, type: 3}
+  - Id: WorldTree_p_rock_6
+    Prefab: {fileID: 919132149155446097, guid: 0ff79f6b16513d343a499c0222063379, type: 3}
+  - Id: WorldTree_p_rock_6_lod
+    Prefab: {fileID: 919132149155446097, guid: db91f3cba8ef9a949acf8946b8269572, type: 3}
+  - Id: WorldTree_p_rock_7
+    Prefab: {fileID: 919132149155446097, guid: 2b9ca28139055354f8e3e357a6c6f2ab, type: 3}
+  - Id: WorldTree_p_rock_7_lod
+    Prefab: {fileID: 919132149155446097, guid: 741e29e038e12784d8ae5a012cbd81a1, type: 3}
+  - Id: WorldTree_p_rock_8
+    Prefab: {fileID: 919132149155446097, guid: 73c71f59533be0347b65126a067d2579, type: 3}
+  - Id: WorldTree_p_rock_8_lod
+    Prefab: {fileID: 919132149155446097, guid: de1cbad1af7e98d4dbb5dab1c06e9e6d, type: 3}
+  - Id: WorldTree_p_spruce_90
+    Prefab: {fileID: 919132149155446097, guid: 79a49fc7bd7432d4590040d691972b92, type: 3}
+  - Id: WorldTree_p_spruce_90_lod
+    Prefab: {fileID: 919132149155446097, guid: 67818f65c09fb9e4cbda987c53022e6f, type: 3}
+  - Id: WorldTree_p_spruce_91
+    Prefab: {fileID: 919132149155446097, guid: c2630e3f174be724388a61db17e944eb, type: 3}
+  - Id: WorldTree_p_spruce_91_lod
+    Prefab: {fileID: 919132149155446097, guid: f77f13f497d46814c818c6ce383c6867, type: 3}
+  - Id: WorldTree_p_spruce_92
+    Prefab: {fileID: 919132149155446097, guid: 6572a086b74c30a458df684d657b997c, type: 3}
+  - Id: WorldTree_p_spruce_92_lod
+    Prefab: {fileID: 919132149155446097, guid: 90256a35828b5564a9391a743380a795, type: 3}
+  - Id: WorldTree_p_spruce_94
+    Prefab: {fileID: 919132149155446097, guid: da04f8aeccfe2a64194c3c80bc34e53f, type: 3}
+  - Id: WorldTree_p_spruce_94_lod
+    Prefab: {fileID: 919132149155446097, guid: 83be039d2e9c2934f932b1b7154f2fef, type: 3}
+  - Id: WorldTree_p_young_73
+    Prefab: {fileID: 919132149155446097, guid: b08332896718be44884be09161976916, type: 3}
+  - Id: WorldTree_p_young_73_lod
+    Prefab: {fileID: 919132149155446097, guid: d50352060df80a443a9cd3a65a2054f3, type: 3}
+  - Id: WorldTree_p_young_81
+    Prefab: {fileID: 919132149155446097, guid: d98aeff9f9c987648ba9dfe75e13ae6e, type: 3}
+  - Id: WorldTree_p_young_81_lod
+    Prefab: {fileID: 919132149155446097, guid: c8a4cc4385c1fc14ca8fce4e94c16a2f, type: 3}
+  - Id: WorldTree_p_youngfir_153
+    Prefab: {fileID: 919132149155446097, guid: 588785f044fb5a947b7bb78e9f481142, type: 3}
+  - Id: WorldTree_p_youngfir_153_lod
+    Prefab: {fileID: 919132149155446097, guid: e1d28a9489475b44facd1608db888159, type: 3}
+  - Id: WorldTree_p_youngfir_31
+    Prefab: {fileID: 919132149155446097, guid: 67d94c0042c7d5f4eb072996c8438517, type: 3}
+  - Id: WorldTree_p_youngfir_31_lod
+    Prefab: {fileID: 919132149155446097, guid: 518c463a76e8e0c4fb327dc01d7d41e2, type: 3}
+  - Id: WorldVillage
+    Prefab: {fileID: 919132149155446097, guid: b246e3c1647e51f4db5a000172b04ad1, type: 3}
+  - Id: WorldVillage_azhar_coast
+    Prefab: {fileID: 919132149155446097, guid: e4a7271f9ac46104ca746492fe1c85fe, type: 3}
+  - Id: WorldVillage_azhar_farm
+    Prefab: {fileID: 919132149155446097, guid: 0f2d99b8771abd048a1be78888ffe490, type: 3}
+  - Id: WorldVillage_azhar_hill
+    Prefab: {fileID: 919132149155446097, guid: cd9320a308df0e940acd7b27252d87f9, type: 3}
+  - Id: WorldVillage_azhar_oasis
+    Prefab: {fileID: 919132149155446097, guid: e8590c86d9a18bc4db6fdda5938e9862, type: 3}
+  - Id: WorldVillage_grim_coast
+    Prefab: {fileID: 919132149155446097, guid: e9e741dde3c8a9c43a8e5217924ad36c, type: 3}
+  - Id: WorldVillage_grim_farm
+    Prefab: {fileID: 919132149155446097, guid: db8bb83a788cf8345b24d522683d7c2c, type: 3}
+  - Id: WorldVillage_grim_hill
+    Prefab: {fileID: 919132149155446097, guid: b01997cd350278d4593ea7da074af92a, type: 3}
+  - Id: WorldVillage_grim_villa
+    Prefab: {fileID: 919132149155446097, guid: a2df6ff44ceb4884baf15c87c8a7a042, type: 3}
+  - Id: WorldVillage_grim_vineyard
+    Prefab: {fileID: 919132149155446097, guid: 0676c27217f0c0744b365775c79fdb02, type: 3}
+  - Id: WorldVillage_khordan_camp
+    Prefab: {fileID: 919132149155446097, guid: da1b979732f6e9b4195e22a93d748c66, type: 3}
+  - Id: WorldVillage_khordan_caravan
+    Prefab: {fileID: 919132149155446097, guid: 6e7f8750545c4d648aca284dffa47be0, type: 3}
+  - Id: WorldVillage_khordan_village
+    Prefab: {fileID: 919132149155446097, guid: 53d96c687b4cc774a9c13e63c2fef934, type: 3}
+  - Id: WorldVillage_vallerois_hamlet
+    Prefab: {fileID: 919132149155446097, guid: da1c8a70d75504448bba9b6de6e09154, type: 3}
+  - Id: WorldVillage_vallerois_mill
+    Prefab: {fileID: 919132149155446097, guid: b38c0e87647398c448360fcd5f02e173, type: 3}
+  - Id: WorldVillage_vallerois_village
+    Prefab: {fileID: 919132149155446097, guid: f18e19440d3af294486d2275e8c359f3, type: 3}
+  - Id: WorldVillage_vallerois_vineyard
+    Prefab: {fileID: 919132149155446097, guid: 04dd9032dd0aae74aa93249cd56110a0, type: 3}
+  - Id: WorldVillage_varden_hamlet
+    Prefab: {fileID: 919132149155446097, guid: f16e2bf0f1a46104eb1052ab84634f60, type: 3}
+  - Id: WorldVillage_varden_selo
+    Prefab: {fileID: 919132149155446097, guid: 8a090754debdf6c4ba468a4bc6d24f82, type: 3}
+  - Id: WorldVillage_varden_village
+    Prefab: {fileID: 919132149155446097, guid: d7360659e754efb458d49eaa7bc69346, type: 3}
+  - Id: WorldVillage_vinland_farm
+    Prefab: {fileID: 919132149155446097, guid: 6a07a2fb0f7a1204287783a6510ae0fc, type: 3}
+  - Id: WorldVillage_vinland_fishing
+    Prefab: {fileID: 919132149155446097, guid: fa64bf2b3e33f104f84aa82c16cdea9b, type: 3}
+  - Id: WorldVillage_vinland_forest
+    Prefab: {fileID: 919132149155446097, guid: 04f0ca5acf9c2bb4e903160d86c27551, type: 3}
+  - Id: WorldVillage_vinland_longhall
+    Prefab: {fileID: 919132149155446097, guid: d857d21fd6de1a4429d81ce3d854960e, type: 3}
+  - Id: WorldVillage_vinland_mountain
+    Prefab: {fileID: 919132149155446097, guid: ded2d93ba535e3b49b85e1ec644f9102, type: 3}

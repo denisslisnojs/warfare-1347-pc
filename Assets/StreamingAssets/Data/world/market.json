@@ -1,0 +1,32 @@
+{
+ "testStock": true,
+ "categories": [
+  {"id": "goods", "name": "Товары", "nameEn": "Goods", "icon": "icon_goods"},
+  {"id": "armor", "name": "Броня", "nameEn": "Armour", "icon": "icon_armor", "sub": [
+   {"id": "helmets", "name": "Шлемы", "nameEn": "Helmets", "icon": "icon_helmets"},
+   {"id": "body", "name": "Доспехи", "nameEn": "Body armour", "icon": "icon_body"},
+   {"id": "gloves", "name": "Перчатки", "nameEn": "Gloves", "icon": "icon_gloves"},
+   {"id": "legs", "name": "Поножи", "nameEn": "Leg armour", "icon": "icon_legs"}
+  ]},
+  {"id": "melee", "name": "Ближний бой", "nameEn": "Melee", "icon": "icon_melee", "sub": [
+   {"id": "swords", "name": "Мечи", "nameEn": "Swords", "icon": "icon_swords"},
+   {"id": "axes", "name": "Топоры", "nameEn": "Axes", "icon": "icon_axes"},
+   {"id": "spears", "name": "Копья", "nameEn": "Spears", "icon": "icon_spears"},
+   {"id": "shields", "name": "Щиты", "nameEn": "Shields", "icon": "icon_shields"}
+  ]},
+  {"id": "ranged", "name": "Дальний бой", "nameEn": "Ranged", "icon": "icon_ranged", "sub": [
+   {"id": "bows", "name": "Луки", "nameEn": "Bows", "icon": "icon_bows"},
+   {"id": "crossbows", "name": "Арбалеты", "nameEn": "Crossbows", "icon": "icon_crossbows"},
+   {"id": "throwing", "name": "Метательное", "nameEn": "Throwing", "icon": "icon_throwing"},
+   {"id": "ammo", "name": "Снаряды", "nameEn": "Ammunition", "icon": "icon_ammo"}
+  ]},
+  {"id": "horses", "name": "Кони", "nameEn": "Horses", "icon": "icon_horses", "sub": [
+   {"id": "mounts", "name": "Кони", "nameEn": "Mounts", "icon": "icon_mounts"},
+   {"id": "barding", "name": "Конская броня", "nameEn": "Horse armour", "icon": "icon_barding"}
+  ]}
+ ],
+ "settlements": {
+  "town": ["goods", "armor", "melee", "ranged", "horses"],
+  "village": ["goods"]
+ }
+}

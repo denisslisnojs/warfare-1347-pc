@@ -1,0 +1,2642 @@
+{
+  "troops": [
+    {
+      "id": "aurelia_i1",
+      "name": "Крестьянин",
+      "faction": "aurelia",
+      "tier": 1,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 40,
+      "armor": {
+        "cut": 0.04,
+        "pierce": 0.04,
+        "blunt": 0.04
+      },
+      "damage": 8,
+      "damageType": "pierce",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.05,
+      "dodge": 0.1,
+      "block": 0,
+      "hireCost": 10,
+      "upgradeCost": 25,
+      "xpToUpgrade": 60,
+      "upgradesTo": [
+        "aurelia_i2"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "hood",
+        "cloth": "#3a6cc4",
+        "armor": "#8a6d4a",
+        "weapon": "pitchfork",
+        "shield": false
+      },
+      "description": "Вчерашний пахарь с вилами. Дёшев, слаб, но из него можно вырастить настоящего воина."
+    },
+    {
+      "id": "aurelia_i2",
+      "name": "Ландвер",
+      "faction": "aurelia",
+      "tier": 2,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 55,
+      "armor": {
+        "cut": 0.12,
+        "pierce": 0.1,
+        "blunt": 0.08
+      },
+      "damage": 11,
+      "damageType": "pierce",
+      "attackTime": 1.4,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.06,
+      "dodge": 0.1,
+      "block": 0.1,
+      "hireCost": 0,
+      "upgradeCost": 60,
+      "xpToUpgrade": 150,
+      "upgradesTo": [
+        "aurelia_i3m",
+        "aurelia_i3r",
+        "aurelia_i3s"
+      ],
+      "traits": [
+        "brace",
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "kettle",
+        "cloth": "#3a6cc4",
+        "armor": "#9a9a9a",
+        "weapon": "spear",
+        "shield": true
+      },
+      "description": "Городское ополчение: копьё, щит и железная шляпа."
+    },
+    {
+      "id": "aurelia_i3m",
+      "name": "Имперский пехотинец",
+      "faction": "aurelia",
+      "tier": 3,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 75,
+      "armor": {
+        "cut": 0.308,
+        "pierce": 0.242,
+        "blunt": 0.165
+      },
+      "damage": 16,
+      "damageType": "cut",
+      "attackTime": 1.3,
+      "range": 0,
+      "speed": 0.95,
+      "crit": 0.08,
+      "dodge": 0.08,
+      "block": 0.22,
+      "hireCost": 0,
+      "upgradeCost": 140,
+      "xpToUpgrade": 320,
+      "upgradesTo": [
+        "aurelia_i4m"
+      ],
+      "traits": [
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "bascinet",
+        "cloth": "#3a6cc4",
+        "armor": "#a8adb4",
+        "weapon": "sword",
+        "shield": true
+      },
+      "description": "Кольчуга, бацинет и добрый меч. Держит строй под натиском."
+    },
+    {
+      "id": "aurelia_i3r",
+      "name": "Генуэзский арбалетчик",
+      "faction": "aurelia",
+      "tier": 3,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 60,
+      "armor": {
+        "cut": 0.15,
+        "pierce": 0.12,
+        "blunt": 0.1
+      },
+      "damage": 18,
+      "damageType": "pierce",
+      "attackTime": 2.86,
+      "range": 77,
+      "speed": 1,
+      "crit": 0.1,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 140,
+      "xpToUpgrade": 320,
+      "upgradesTo": [
+        "aurelia_i4r"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "kettle",
+        "cloth": "#3a6cc4",
+        "armor": "#9a9a9a",
+        "weapon": "crossbow",
+        "shield": false
+      },
+      "description": "Арбалет бьёт медленно, но пробивает кольчугу."
+    },
+    {
+      "id": "aurelia_i4m",
+      "name": "Доппельзольднер",
+      "faction": "aurelia",
+      "tier": 4,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 100,
+      "armor": {
+        "cut": 0.518,
+        "pierce": 0.402,
+        "blunt": 0.288
+      },
+      "damage": 25,
+      "damageType": "cut",
+      "attackTime": 1.25,
+      "range": 0,
+      "speed": 0.9,
+      "crit": 0.1,
+      "dodge": 0.06,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "brace",
+        "twohand"
+      ],
+      "look": {
+        "helmet": "bascinet",
+        "cloth": "#3a6cc4",
+        "armor": "#c0c5cc",
+        "weapon": "halberd",
+        "shield": false
+      },
+      "description": "Ветеран в полулатах с алебардой. Получает двойное жалованье — и заслуживает его."
+    },
+    {
+      "id": "aurelia_i4r",
+      "name": "Павезьер",
+      "faction": "aurelia",
+      "tier": 4,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 75,
+      "armor": {
+        "cut": 0.3,
+        "pierce": 0.24,
+        "blunt": 0.18
+      },
+      "damage": 25,
+      "damageType": "pierce",
+      "attackTime": 2.6,
+      "range": 85,
+      "speed": 1,
+      "crit": 0.15,
+      "dodge": 0.12,
+      "block": 0.1,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "pavise"
+      ],
+      "look": {
+        "helmet": "bascinet",
+        "cloth": "#3a6cc4",
+        "armor": "#b0b5bc",
+        "weapon": "crossbow",
+        "shield": true
+      },
+      "description": "Арбалетчик с огромным щитом-павезой. Стреляет из-за укрытия."
+    },
+    {
+      "id": "aurelia_c1",
+      "name": "Конный слуга",
+      "faction": "aurelia",
+      "tier": 1,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 70,
+      "armor": {
+        "cut": 0.12,
+        "pierce": 0.1,
+        "blunt": 0.08
+      },
+      "damage": 12,
+      "damageType": "pierce",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 2,
+      "crit": 0.06,
+      "dodge": 0.08,
+      "block": 0,
+      "hireCost": 60,
+      "upgradeCost": 80,
+      "xpToUpgrade": 100,
+      "upgradesTo": [
+        "aurelia_c2"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "cap",
+        "cloth": "#3a6cc4",
+        "armor": "#8a6d4a",
+        "weapon": "spear",
+        "shield": false
+      },
+      "description": "Слуга при рыцарском коне. Умеет держаться в седле."
+    },
+    {
+      "id": "aurelia_c2",
+      "name": "Сквайр",
+      "faction": "aurelia",
+      "tier": 2,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 90,
+      "armor": {
+        "cut": 0.22,
+        "pierce": 0.18,
+        "blunt": 0.12
+      },
+      "damage": 16,
+      "damageType": "cut",
+      "attackTime": 1.4,
+      "range": 0,
+      "speed": 2.1,
+      "crit": 0.08,
+      "dodge": 0.08,
+      "block": 0.12,
+      "hireCost": 0,
+      "upgradeCost": 180,
+      "xpToUpgrade": 220,
+      "upgradesTo": [
+        "aurelia_c3m",
+        "aurelia_c3r"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "nasal",
+        "cloth": "#3a6cc4",
+        "armor": "#9a9a9a",
+        "weapon": "sword",
+        "shield": true
+      },
+      "description": "Оруженосец, мечтающий о рыцарских шпорах."
+    },
+    {
+      "id": "aurelia_c3m",
+      "name": "Конный латник",
+      "faction": "aurelia",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 120,
+      "armor": {
+        "cut": 0.4,
+        "pierce": 0.32,
+        "blunt": 0.22
+      },
+      "damage": 26,
+      "damageType": "pierce",
+      "attackTime": 1.35,
+      "range": 0,
+      "speed": 2.1,
+      "crit": 0.1,
+      "dodge": 0.06,
+      "block": 0.2,
+      "hireCost": 0,
+      "upgradeCost": 350,
+      "xpToUpgrade": 450,
+      "upgradesTo": [
+        "aurelia_c4m"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "bascinet",
+        "cloth": "#3a6cc4",
+        "armor": "#b0b5bc",
+        "weapon": "lance",
+        "shield": true
+      },
+      "description": "Тяжёлый всадник в латах. Таранный удар копьём сметает пехоту."
+    },
+    {
+      "id": "aurelia_c3r",
+      "name": "Конный арбалетчик",
+      "faction": "aurelia",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 95,
+      "armor": {
+        "cut": 0.2,
+        "pierce": 0.16,
+        "blunt": 0.12
+      },
+      "damage": 19,
+      "damageType": "pierce",
+      "attackTime": 2.5,
+      "range": 60,
+      "speed": 2.3,
+      "crit": 0.12,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 350,
+      "xpToUpgrade": 450,
+      "upgradesTo": [
+        "aurelia_c4r"
+      ],
+      "traits": [
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "kettle",
+        "cloth": "#3a6cc4",
+        "armor": "#9a9a9a",
+        "weapon": "crossbow",
+        "shield": false
+      },
+      "description": "Арбалетчик верхом: медленно, но метко."
+    },
+    {
+      "id": "aurelia_c4m",
+      "name": "Имперский рыцарь",
+      "faction": "aurelia",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 150,
+      "armor": {
+        "cut": 0.605,
+        "pierce": 0.495,
+        "blunt": 0.33
+      },
+      "damage": 33,
+      "damageType": "pierce",
+      "attackTime": 1.3,
+      "range": 0,
+      "speed": 2,
+      "crit": 0.12,
+      "dodge": 0.05,
+      "block": 0.25,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "great",
+        "cloth": "#3a6cc4",
+        "armor": "#d0d5dc",
+        "weapon": "lance",
+        "shield": true
+      },
+      "description": "Цвет имперского рыцарства в полных латах. Сильнейшая конница Европы."
+    },
+    {
+      "id": "aurelia_c4r",
+      "name": "Кондотьер",
+      "faction": "aurelia",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 115,
+      "armor": {
+        "cut": 0.33,
+        "pierce": 0.275,
+        "blunt": 0.198
+      },
+      "damage": 25,
+      "damageType": "pierce",
+      "attackTime": 2.25,
+      "range": 70,
+      "speed": 2.3,
+      "crit": 0.16,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "bascinet",
+        "cloth": "#3a6cc4",
+        "armor": "#c0c5cc",
+        "weapon": "crossbow",
+        "shield": false
+      },
+      "description": "Наёмный капитан итальянских войн. Стреляет, рубит и торгуется."
+    },
+    {
+      "id": "nordmark_i1",
+      "name": "Крестьянин",
+      "faction": "nordmark",
+      "tier": 1,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 40,
+      "armor": {
+        "cut": 0.04,
+        "pierce": 0.04,
+        "blunt": 0.04
+      },
+      "damage": 8,
+      "damageType": "pierce",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.05,
+      "dodge": 0.1,
+      "block": 0,
+      "hireCost": 10,
+      "upgradeCost": 25,
+      "xpToUpgrade": 60,
+      "upgradesTo": [
+        "nordmark_i2"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "hood",
+        "cloth": "#c24040",
+        "armor": "#7a6448",
+        "weapon": "pitchfork",
+        "shield": false
+      },
+      "description": "Вчерашний пахарь с вилами. Дёшев, слаб, но из него можно вырастить настоящего воина."
+    },
+    {
+      "id": "nordmark_i2",
+      "name": "Бонд",
+      "faction": "nordmark",
+      "tier": 2,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 61,
+      "armor": {
+        "cut": 0.12,
+        "pierce": 0.1,
+        "blunt": 0.08
+      },
+      "damage": 11,
+      "damageType": "cut",
+      "attackTime": 1.4,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.06,
+      "dodge": 0.1,
+      "block": 0.13,
+      "hireCost": 0,
+      "upgradeCost": 60,
+      "xpToUpgrade": 150,
+      "upgradesTo": [
+        "nordmark_i3m",
+        "nordmark_i3r",
+        "nordmark_i3s"
+      ],
+      "traits": [
+        "javelin",
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "cap",
+        "cloth": "#c24040",
+        "armor": "#8a7050",
+        "weapon": "axe",
+        "shield": true
+      },
+      "description": "Свободный земледелец с топором и круглым щитом."
+    },
+    {
+      "id": "nordmark_i3m",
+      "name": "Хирдман",
+      "faction": "nordmark",
+      "tier": 3,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 83,
+      "armor": {
+        "cut": 0.28,
+        "pierce": 0.22,
+        "blunt": 0.15
+      },
+      "damage": 16,
+      "damageType": "cut",
+      "attackTime": 1.3,
+      "range": 0,
+      "speed": 0.95,
+      "crit": 0.08,
+      "dodge": 0.08,
+      "block": 0.286,
+      "hireCost": 0,
+      "upgradeCost": 140,
+      "xpToUpgrade": 320,
+      "upgradesTo": [
+        "nordmark_i4m"
+      ],
+      "traits": [
+        "javelin",
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "nasal",
+        "cloth": "#c24040",
+        "armor": "#9aa0a8",
+        "weapon": "axe",
+        "shield": true
+      },
+      "description": "Дружинник ярла. Щит к щиту — стену не пробить."
+    },
+    {
+      "id": "nordmark_i3r",
+      "name": "Лесной лучник",
+      "faction": "nordmark",
+      "tier": 3,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 60,
+      "armor": {
+        "cut": 0.15,
+        "pierce": 0.12,
+        "blunt": 0.1
+      },
+      "damage": 14,
+      "damageType": "pierce",
+      "attackTime": 2.2,
+      "range": 81,
+      "speed": 1,
+      "crit": 0.1,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 140,
+      "xpToUpgrade": 320,
+      "upgradesTo": [
+        "nordmark_i4r"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "hood",
+        "cloth": "#c24040",
+        "armor": "#6a5a40",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Охотник из северных лесов. Бьёт белку в глаз."
+    },
+    {
+      "id": "nordmark_i4m",
+      "name": "Хускарл",
+      "faction": "nordmark",
+      "tier": 4,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 115,
+      "armor": {
+        "cut": 0.45,
+        "pierce": 0.35,
+        "blunt": 0.25
+      },
+      "damage": 25,
+      "damageType": "cut",
+      "attackTime": 1.25,
+      "range": 0,
+      "speed": 0.9,
+      "crit": 0.1,
+      "dodge": 0.06,
+      "block": 0.36,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "nasal",
+        "cloth": "#c24040",
+        "armor": "#b0b5bc",
+        "weapon": "axe",
+        "shield": true
+      },
+      "description": "Личная гвардия конунга с датским топором. Не отступает никогда."
+    },
+    {
+      "id": "nordmark_i4r",
+      "name": "Охотник Нордмарка",
+      "faction": "nordmark",
+      "tier": 4,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 75,
+      "armor": {
+        "cut": 0.25,
+        "pierce": 0.2,
+        "blunt": 0.15
+      },
+      "damage": 20,
+      "damageType": "pierce",
+      "attackTime": 2,
+      "range": 102,
+      "speed": 1,
+      "crit": 0.195,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "fur",
+        "cloth": "#c24040",
+        "armor": "#7a6a50",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Лучший лучник Севера с тисовым длинным луком."
+    },
+    {
+      "id": "nordmark_c1",
+      "name": "Конный слуга",
+      "faction": "nordmark",
+      "tier": 1,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 70,
+      "armor": {
+        "cut": 0.12,
+        "pierce": 0.1,
+        "blunt": 0.08
+      },
+      "damage": 12,
+      "damageType": "pierce",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 2,
+      "crit": 0.06,
+      "dodge": 0.08,
+      "block": 0,
+      "hireCost": 60,
+      "upgradeCost": 80,
+      "xpToUpgrade": 100,
+      "upgradesTo": [
+        "nordmark_c2"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "cap",
+        "cloth": "#c24040",
+        "armor": "#7a6448",
+        "weapon": "spear",
+        "shield": false
+      },
+      "description": "Бонд, раздобывший лошадь."
+    },
+    {
+      "id": "nordmark_c2",
+      "name": "Дружинник",
+      "faction": "nordmark",
+      "tier": 2,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 90,
+      "armor": {
+        "cut": 0.22,
+        "pierce": 0.18,
+        "blunt": 0.12
+      },
+      "damage": 16,
+      "damageType": "cut",
+      "attackTime": 1.4,
+      "range": 0,
+      "speed": 2.1,
+      "crit": 0.08,
+      "dodge": 0.08,
+      "block": 0.12,
+      "hireCost": 0,
+      "upgradeCost": 180,
+      "xpToUpgrade": 220,
+      "upgradesTo": [
+        "nordmark_c3m",
+        "nordmark_c3r"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "nasal",
+        "cloth": "#c24040",
+        "armor": "#9aa0a8",
+        "weapon": "sword",
+        "shield": true
+      },
+      "description": "Конный воин из дружины ярла."
+    },
+    {
+      "id": "nordmark_c3m",
+      "name": "Конный хирдман",
+      "faction": "nordmark",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 132,
+      "armor": {
+        "cut": 0.4,
+        "pierce": 0.32,
+        "blunt": 0.22
+      },
+      "damage": 23,
+      "damageType": "cut",
+      "attackTime": 1.35,
+      "range": 0,
+      "speed": 2.1,
+      "crit": 0.1,
+      "dodge": 0.06,
+      "block": 0.2,
+      "hireCost": 0,
+      "upgradeCost": 350,
+      "xpToUpgrade": 450,
+      "upgradesTo": [
+        "nordmark_c4m"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "nasal",
+        "cloth": "#c24040",
+        "armor": "#a8adb4",
+        "weapon": "axe",
+        "shield": true
+      },
+      "description": "Хирдман, привыкший сражаться и в седле."
+    },
+    {
+      "id": "nordmark_c3r",
+      "name": "Конный лучник",
+      "faction": "nordmark",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 95,
+      "armor": {
+        "cut": 0.2,
+        "pierce": 0.16,
+        "blunt": 0.12
+      },
+      "damage": 15,
+      "damageType": "pierce",
+      "attackTime": 2,
+      "range": 60,
+      "speed": 2.3,
+      "crit": 0.12,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 350,
+      "xpToUpgrade": 450,
+      "upgradesTo": [
+        "nordmark_c4r"
+      ],
+      "traits": [
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "hood",
+        "cloth": "#c24040",
+        "armor": "#7a6a50",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Лёгкий стрелок на выносливой северной лошадке."
+    },
+    {
+      "id": "nordmark_c4m",
+      "name": "Ярлов гвардеец",
+      "faction": "nordmark",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 165,
+      "armor": {
+        "cut": 0.55,
+        "pierce": 0.45,
+        "blunt": 0.3
+      },
+      "damage": 29,
+      "damageType": "cut",
+      "attackTime": 1.3,
+      "range": 0,
+      "speed": 2,
+      "crit": 0.12,
+      "dodge": 0.05,
+      "block": 0.25,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "great",
+        "cloth": "#c24040",
+        "armor": "#c0c5cc",
+        "weapon": "sword",
+        "shield": true
+      },
+      "description": "Отборный всадник из свиты ярла."
+    },
+    {
+      "id": "nordmark_c4r",
+      "name": "Всадник-следопыт",
+      "faction": "nordmark",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 115,
+      "armor": {
+        "cut": 0.3,
+        "pierce": 0.25,
+        "blunt": 0.18
+      },
+      "damage": 21,
+      "damageType": "pierce",
+      "attackTime": 1.8,
+      "range": 77,
+      "speed": 2.3,
+      "crit": 0.16,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "fur",
+        "cloth": "#c24040",
+        "armor": "#8a7a5a",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Разведчик, знающий каждую тропу Севера."
+    },
+    {
+      "id": "horde_i1",
+      "name": "Крестьянин",
+      "faction": "horde",
+      "tier": 1,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 40,
+      "armor": {
+        "cut": 0.04,
+        "pierce": 0.04,
+        "blunt": 0.04
+      },
+      "damage": 8,
+      "damageType": "pierce",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.05,
+      "dodge": 0.1,
+      "block": 0,
+      "hireCost": 10,
+      "upgradeCost": 25,
+      "xpToUpgrade": 60,
+      "upgradesTo": [
+        "horde_i2"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "fur",
+        "cloth": "#e0aa24",
+        "armor": "#8a6d4a",
+        "weapon": "pitchfork",
+        "shield": false
+      },
+      "description": "Вчерашний пахарь с вилами. Дёшев, слаб, но из него можно вырастить настоящего воина."
+    },
+    {
+      "id": "horde_i2",
+      "name": "Цэрэг",
+      "faction": "horde",
+      "tier": 2,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 55,
+      "armor": {
+        "cut": 0.12,
+        "pierce": 0.1,
+        "blunt": 0.08
+      },
+      "damage": 11,
+      "damageType": "pierce",
+      "attackTime": 1.4,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.06,
+      "dodge": 0.1,
+      "block": 0.1,
+      "hireCost": 0,
+      "upgradeCost": 60,
+      "xpToUpgrade": 150,
+      "upgradesTo": [
+        "horde_i3m",
+        "horde_i3r"
+      ],
+      "traits": [
+        "brace",
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "fur",
+        "cloth": "#e0aa24",
+        "armor": "#8a6a45",
+        "weapon": "spear",
+        "shield": true
+      },
+      "description": "Новобранец тумена в стёганом халате."
+    },
+    {
+      "id": "horde_i3m",
+      "name": "Пеший нукер",
+      "faction": "horde",
+      "tier": 3,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 75,
+      "armor": {
+        "cut": 0.252,
+        "pierce": 0.198,
+        "blunt": 0.135
+      },
+      "damage": 16,
+      "damageType": "cut",
+      "attackTime": 1.3,
+      "range": 0,
+      "speed": 0.95,
+      "crit": 0.08,
+      "dodge": 0.08,
+      "block": 0.22,
+      "hireCost": 0,
+      "upgradeCost": 140,
+      "xpToUpgrade": 320,
+      "upgradesTo": [
+        "horde_i4m"
+      ],
+      "traits": [
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#e0aa24",
+        "armor": "#8f7a5a",
+        "weapon": "sabre",
+        "shield": true
+      },
+      "description": "Воин в ламеллярном доспехе с кривой саблей."
+    },
+    {
+      "id": "horde_i3r",
+      "name": "Степной лучник",
+      "faction": "horde",
+      "tier": 3,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 60,
+      "armor": {
+        "cut": 0.15,
+        "pierce": 0.12,
+        "blunt": 0.1
+      },
+      "damage": 14,
+      "damageType": "pierce",
+      "attackTime": 2.2,
+      "range": 77,
+      "speed": 1,
+      "crit": 0.1,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 140,
+      "xpToUpgrade": 320,
+      "upgradesTo": [
+        "horde_i4r"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "fur",
+        "cloth": "#e0aa24",
+        "armor": "#8a6a45",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Составной лук степи бьёт дальше любого другого."
+    },
+    {
+      "id": "horde_i4m",
+      "name": "Турхаут",
+      "faction": "horde",
+      "tier": 4,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 100,
+      "armor": {
+        "cut": 0.45,
+        "pierce": 0.35,
+        "blunt": 0.25
+      },
+      "damage": 25,
+      "damageType": "cut",
+      "attackTime": 1.25,
+      "range": 0,
+      "speed": 0.9,
+      "crit": 0.1,
+      "dodge": 0.06,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "brace",
+        "twohand"
+      ],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#e0aa24",
+        "armor": "#a08a60",
+        "weapon": "glaive",
+        "shield": false
+      },
+      "description": "Дневная стража хана с тяжёлой глефой."
+    },
+    {
+      "id": "horde_i4r",
+      "name": "Мэргэн",
+      "faction": "horde",
+      "tier": 4,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 75,
+      "armor": {
+        "cut": 0.25,
+        "pierce": 0.2,
+        "blunt": 0.15
+      },
+      "damage": 20,
+      "damageType": "pierce",
+      "attackTime": 1.7,
+      "range": 98,
+      "speed": 1,
+      "crit": 0.15,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#e0aa24",
+        "armor": "#9a8055",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Мастер-стрелок: три стрелы в воздухе одновременно."
+    },
+    {
+      "id": "horde_c1",
+      "name": "Табунщик",
+      "faction": "horde",
+      "tier": 1,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 70,
+      "armor": {
+        "cut": 0.12,
+        "pierce": 0.1,
+        "blunt": 0.08
+      },
+      "damage": 12,
+      "damageType": "pierce",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 2.3,
+      "crit": 0.06,
+      "dodge": 0.08,
+      "block": 0,
+      "hireCost": 60,
+      "upgradeCost": 80,
+      "xpToUpgrade": 100,
+      "upgradesTo": [
+        "horde_c2"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "fur",
+        "cloth": "#e0aa24",
+        "armor": "#8a6a45",
+        "weapon": "spear",
+        "shield": false
+      },
+      "description": "Степняк, выросший в седле."
+    },
+    {
+      "id": "horde_c2",
+      "name": "Аратский всадник",
+      "faction": "horde",
+      "tier": 2,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 90,
+      "armor": {
+        "cut": 0.22,
+        "pierce": 0.18,
+        "blunt": 0.12
+      },
+      "damage": 16,
+      "damageType": "cut",
+      "attackTime": 1.4,
+      "range": 0,
+      "speed": 2.42,
+      "crit": 0.08,
+      "dodge": 0.08,
+      "block": 0.12,
+      "hireCost": 0,
+      "upgradeCost": 180,
+      "xpToUpgrade": 220,
+      "upgradesTo": [
+        "horde_c3m",
+        "horde_c3r",
+        "horde_c3s"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "fur",
+        "cloth": "#e0aa24",
+        "armor": "#8f7a5a",
+        "weapon": "sabre",
+        "shield": true
+      },
+      "description": "Лёгкий всадник тумена."
+    },
+    {
+      "id": "horde_c3m",
+      "name": "Тяжёлый нукер",
+      "faction": "horde",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 120,
+      "armor": {
+        "cut": 0.4,
+        "pierce": 0.32,
+        "blunt": 0.22
+      },
+      "damage": 24,
+      "damageType": "pierce",
+      "attackTime": 1.35,
+      "range": 0,
+      "speed": 2.31,
+      "crit": 0.1,
+      "dodge": 0.06,
+      "block": 0.2,
+      "hireCost": 0,
+      "upgradeCost": 350,
+      "xpToUpgrade": 450,
+      "upgradesTo": [
+        "horde_c4m"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#e0aa24",
+        "armor": "#a08a60",
+        "weapon": "lance",
+        "shield": true
+      },
+      "description": "Всадник в ламеллярной броне на бронированном коне."
+    },
+    {
+      "id": "horde_c3r",
+      "name": "Конный лучник",
+      "faction": "horde",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 95,
+      "armor": {
+        "cut": 0.2,
+        "pierce": 0.16,
+        "blunt": 0.12
+      },
+      "damage": 18,
+      "damageType": "pierce",
+      "attackTime": 2,
+      "range": 60,
+      "speed": 2.64,
+      "crit": 0.12,
+      "dodge": 0.144,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 350,
+      "xpToUpgrade": 450,
+      "upgradesTo": [
+        "horde_c4r"
+      ],
+      "traits": [
+        "feint",
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "fur",
+        "cloth": "#e0aa24",
+        "armor": "#8f7a5a",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Главное оружие Орды: стреляет на скаку и уходит от погони."
+    },
+    {
+      "id": "horde_c4m",
+      "name": "Кешиктен",
+      "faction": "horde",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 150,
+      "armor": {
+        "cut": 0.55,
+        "pierce": 0.45,
+        "blunt": 0.3
+      },
+      "damage": 32,
+      "damageType": "pierce",
+      "attackTime": 1.3,
+      "range": 0,
+      "speed": 2.2,
+      "crit": 0.12,
+      "dodge": 0.05,
+      "block": 0.25,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#e0aa24",
+        "armor": "#b89a60",
+        "weapon": "lance",
+        "shield": true
+      },
+      "description": "Гвардеец личной стражи хана. Лучший из лучших."
+    },
+    {
+      "id": "horde_c4r",
+      "name": "Хубилганский стрелок",
+      "faction": "horde",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 115,
+      "armor": {
+        "cut": 0.3,
+        "pierce": 0.25,
+        "blunt": 0.18
+      },
+      "damage": 25,
+      "damageType": "pierce",
+      "attackTime": 1.8,
+      "range": 70,
+      "speed": 2.64,
+      "crit": 0.192,
+      "dodge": 0.144,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "feint",
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#e0aa24",
+        "armor": "#a88a55",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Легендарный конный лучник: не промахивается даже на полном скаку."
+    },
+    {
+      "id": "sultanate_i1",
+      "name": "Крестьянин",
+      "faction": "sultanate",
+      "tier": 1,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 40,
+      "armor": {
+        "cut": 0.04,
+        "pierce": 0.04,
+        "blunt": 0.04
+      },
+      "damage": 8,
+      "damageType": "pierce",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.05,
+      "dodge": 0.1,
+      "block": 0,
+      "hireCost": 10,
+      "upgradeCost": 25,
+      "xpToUpgrade": 60,
+      "upgradesTo": [
+        "sultanate_i2"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "turban",
+        "cloth": "#35a066",
+        "armor": "#b09a70",
+        "weapon": "pitchfork",
+        "shield": false
+      },
+      "description": "Вчерашний пахарь с вилами. Дёшев, слаб, но из него можно вырастить настоящего воина."
+    },
+    {
+      "id": "sultanate_i2",
+      "name": "Ахдас",
+      "faction": "sultanate",
+      "tier": 2,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 55,
+      "armor": {
+        "cut": 0.12,
+        "pierce": 0.1,
+        "blunt": 0.08
+      },
+      "damage": 11,
+      "damageType": "pierce",
+      "attackTime": 1.4,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.06,
+      "dodge": 0.13,
+      "block": 0.1,
+      "hireCost": 0,
+      "upgradeCost": 60,
+      "xpToUpgrade": 150,
+      "upgradesTo": [
+        "sultanate_i3m",
+        "sultanate_i3r",
+        "sultanate_i3s"
+      ],
+      "traits": [
+        "brace",
+        "javelin",
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "turban",
+        "cloth": "#35a066",
+        "armor": "#a08a60",
+        "weapon": "spear",
+        "shield": true
+      },
+      "description": "Городское ополчение с копьём и лёгким щитом."
+    },
+    {
+      "id": "sultanate_i3m",
+      "name": "Копейщик",
+      "faction": "sultanate",
+      "tier": 3,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 75,
+      "armor": {
+        "cut": 0.28,
+        "pierce": 0.22,
+        "blunt": 0.15
+      },
+      "damage": 16,
+      "damageType": "pierce",
+      "attackTime": 1.3,
+      "range": 0,
+      "speed": 0.95,
+      "crit": 0.08,
+      "dodge": 0.104,
+      "block": 0.22,
+      "hireCost": 0,
+      "upgradeCost": 140,
+      "xpToUpgrade": 320,
+      "upgradesTo": [
+        "sultanate_i4m"
+      ],
+      "traits": [
+        "brace",
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#35a066",
+        "armor": "#a8a8a0",
+        "weapon": "spear",
+        "shield": true
+      },
+      "description": "Опытный копейщик. Длинное копьё — гроза конницы."
+    },
+    {
+      "id": "sultanate_i3r",
+      "name": "Лучник-рами",
+      "faction": "sultanate",
+      "tier": 3,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 60,
+      "armor": {
+        "cut": 0.15,
+        "pierce": 0.12,
+        "blunt": 0.1
+      },
+      "damage": 14,
+      "damageType": "pierce",
+      "attackTime": 2.2,
+      "range": 70,
+      "speed": 1,
+      "crit": 0.1,
+      "dodge": 0.156,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 140,
+      "xpToUpgrade": 320,
+      "upgradesTo": [
+        "sultanate_i4r"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "turban",
+        "cloth": "#35a066",
+        "armor": "#a08a60",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Выученный стрелок из составного лука."
+    },
+    {
+      "id": "sultanate_i4m",
+      "name": "Гулям-страж",
+      "faction": "sultanate",
+      "tier": 4,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 100,
+      "armor": {
+        "cut": 0.45,
+        "pierce": 0.35,
+        "blunt": 0.25
+      },
+      "damage": 24,
+      "damageType": "cut",
+      "attackTime": 1.25,
+      "range": 0,
+      "speed": 0.9,
+      "crit": 0.1,
+      "dodge": 0.078,
+      "block": 0.3,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#35a066",
+        "armor": "#c0c0b8",
+        "weapon": "sabre",
+        "shield": true
+      },
+      "description": "Гвардеец эмира в кольчуге и с дамасским клинком."
+    },
+    {
+      "id": "sultanate_i4r",
+      "name": "Мастер-рами",
+      "faction": "sultanate",
+      "tier": 4,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 75,
+      "armor": {
+        "cut": 0.25,
+        "pierce": 0.2,
+        "blunt": 0.15
+      },
+      "damage": 20,
+      "damageType": "pierce",
+      "attackTime": 2,
+      "range": 85,
+      "speed": 1,
+      "crit": 0.195,
+      "dodge": 0.156,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#35a066",
+        "armor": "#b0a890",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Мастер стрельбы, обученный по трактатам о фурусийе."
+    },
+    {
+      "id": "sultanate_c1",
+      "name": "Бедуин-наездник",
+      "faction": "sultanate",
+      "tier": 1,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 70,
+      "armor": {
+        "cut": 0.12,
+        "pierce": 0.1,
+        "blunt": 0.08
+      },
+      "damage": 12,
+      "damageType": "pierce",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 2.2,
+      "crit": 0.06,
+      "dodge": 0.08,
+      "block": 0,
+      "hireCost": 60,
+      "upgradeCost": 80,
+      "xpToUpgrade": 100,
+      "upgradesTo": [
+        "sultanate_c2"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "turban",
+        "cloth": "#35a066",
+        "armor": "#b09a70",
+        "weapon": "spear",
+        "shield": false
+      },
+      "description": "Сын пустыни на быстром скакуне."
+    },
+    {
+      "id": "sultanate_c2",
+      "name": "Фарис",
+      "faction": "sultanate",
+      "tier": 2,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 90,
+      "armor": {
+        "cut": 0.22,
+        "pierce": 0.18,
+        "blunt": 0.12
+      },
+      "damage": 16,
+      "damageType": "cut",
+      "attackTime": 1.4,
+      "range": 0,
+      "speed": 2.1,
+      "crit": 0.08,
+      "dodge": 0.08,
+      "block": 0.12,
+      "hireCost": 0,
+      "upgradeCost": 180,
+      "xpToUpgrade": 220,
+      "upgradesTo": [
+        "sultanate_c3m",
+        "sultanate_c3r",
+        "sultanate_c3s"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "turban",
+        "cloth": "#35a066",
+        "armor": "#a8a8a0",
+        "weapon": "sabre",
+        "shield": true
+      },
+      "description": "Конный воин, знающий правила фурусийи."
+    },
+    {
+      "id": "sultanate_c3m",
+      "name": "Мамлюк",
+      "faction": "sultanate",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 120,
+      "armor": {
+        "cut": 0.4,
+        "pierce": 0.32,
+        "blunt": 0.22
+      },
+      "damage": 26,
+      "damageType": "pierce",
+      "attackTime": 1.35,
+      "range": 0,
+      "speed": 2.1,
+      "crit": 0.1,
+      "dodge": 0.06,
+      "block": 0.2,
+      "hireCost": 0,
+      "upgradeCost": 350,
+      "xpToUpgrade": 450,
+      "upgradesTo": [
+        "sultanate_c4m"
+      ],
+      "traits": [],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#35a066",
+        "armor": "#c0c0b8",
+        "weapon": "lance",
+        "shield": true
+      },
+      "description": "Воин-невольник, выращенный для войны. Страшен в ближнем бою."
+    },
+    {
+      "id": "sultanate_c3r",
+      "name": "Туркопол",
+      "faction": "sultanate",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 95,
+      "armor": {
+        "cut": 0.2,
+        "pierce": 0.16,
+        "blunt": 0.12
+      },
+      "damage": 16,
+      "damageType": "pierce",
+      "attackTime": 2,
+      "range": 60,
+      "speed": 2.3,
+      "crit": 0.12,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 350,
+      "xpToUpgrade": 450,
+      "upgradesTo": [
+        "sultanate_c4r"
+      ],
+      "traits": [
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#35a066",
+        "armor": "#a8a8a0",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Конный лучник на службе султана."
+    },
+    {
+      "id": "sultanate_c4m",
+      "name": "Мамлюк Халки",
+      "faction": "sultanate",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 150,
+      "armor": {
+        "cut": 0.578,
+        "pierce": 0.473,
+        "blunt": 0.315
+      },
+      "damage": 33,
+      "damageType": "pierce",
+      "attackTime": 1.3,
+      "range": 0,
+      "speed": 2,
+      "crit": 0.12,
+      "dodge": 0.05,
+      "block": 0.25,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#35a066",
+        "armor": "#d0d0c8",
+        "weapon": "lance",
+        "shield": true
+      },
+      "description": "Элита мамлюков — личная гвардия султана."
+    },
+    {
+      "id": "sultanate_c4r",
+      "name": "Эмирский стрелок",
+      "faction": "sultanate",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 115,
+      "armor": {
+        "cut": 0.33,
+        "pierce": 0.275,
+        "blunt": 0.198
+      },
+      "damage": 21,
+      "damageType": "pierce",
+      "attackTime": 1.8,
+      "range": 70,
+      "speed": 2.3,
+      "crit": 0.192,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#35a066",
+        "armor": "#b8b0a0",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Конный лучник эмира в кольчуге."
+    },
+    {
+      "id": "aurelia_i3s",
+      "name": "Ручничник",
+      "faction": "aurelia",
+      "tier": 3,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 62,
+      "armor": {
+        "cut": 0.16,
+        "pierce": 0.13,
+        "blunt": 0.1
+      },
+      "damage": 32,
+      "damageType": "pierce",
+      "attackTime": 5.6,
+      "range": 42,
+      "speed": 0.95,
+      "crit": 0.05,
+      "dodge": 0.08,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 160,
+      "xpToUpgrade": 340,
+      "upgradesTo": [
+        "aurelia_i4s"
+      ],
+      "traits": [
+        "gun"
+      ],
+      "look": {
+        "helmet": "kettle",
+        "armor": "#9a9a9a",
+        "weapon": "handgonne",
+        "shield": false,
+        "cloth": "#3a6cc4"
+      },
+      "description": "Новинка из Италии: железная трубка на древке. Перезаряжается долго, зато пуля пробивает латы, а грохот пугает коней."
+    },
+    {
+      "id": "aurelia_i4s",
+      "name": "Кулевринер",
+      "faction": "aurelia",
+      "tier": 4,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 78,
+      "armor": {
+        "cut": 0.26,
+        "pierce": 0.21,
+        "blunt": 0.16
+      },
+      "damage": 40,
+      "damageType": "pierce",
+      "attackTime": 5,
+      "range": 52,
+      "speed": 0.95,
+      "crit": 0.06,
+      "dodge": 0.08,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "gun"
+      ],
+      "look": {
+        "helmet": "sallet",
+        "armor": "#b0b5bc",
+        "weapon": "handgonne",
+        "shield": false,
+        "cloth": "#3a6cc4"
+      },
+      "description": "Мастер огненного боя с длинной кулевриной. Один выстрел — и рыцарь лежит в пыли."
+    },
+    {
+      "id": "nordmark_i3s",
+      "name": "Берсерк",
+      "faction": "nordmark",
+      "tier": 3,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 98,
+      "armor": {
+        "cut": 0.05,
+        "pierce": 0.04,
+        "blunt": 0.04
+      },
+      "damage": 19,
+      "damageType": "cut",
+      "attackTime": 1.05,
+      "range": 0,
+      "speed": 1.2,
+      "crit": 0.12,
+      "dodge": 0.14,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 160,
+      "xpToUpgrade": 340,
+      "upgradesTo": [
+        "nordmark_i4s"
+      ],
+      "traits": [
+        "berserk"
+      ],
+      "look": {
+        "helmet": "fur",
+        "armor": "#6a4a30",
+        "weapon": "axe",
+        "shield": false,
+        "body": "bare",
+        "tabard": false,
+        "cloth": "#c24040"
+      },
+      "description": "Воин в медвежьей шкуре. Не носит доспеха и не знает страха: раны лишь распаляют его ярость."
+    },
+    {
+      "id": "nordmark_i4s",
+      "name": "Ульфхеднар",
+      "faction": "nordmark",
+      "tier": 4,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 118,
+      "armor": {
+        "cut": 0.1,
+        "pierce": 0.08,
+        "blunt": 0.06
+      },
+      "damage": 25,
+      "damageType": "cut",
+      "attackTime": 1.2,
+      "range": 0,
+      "speed": 1.2,
+      "crit": 0.16,
+      "dodge": 0.14,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "berserk",
+        "twohand"
+      ],
+      "look": {
+        "helmet": "fur",
+        "armor": "#4a3a2c",
+        "weapon": "daneaxe",
+        "shield": false,
+        "body": "bare",
+        "tabard": false,
+        "cloth": "#c24040"
+      },
+      "description": "Волкоголовый воин из древних саг с датской секирой. Там, где он прошёл, строй рассыпается."
+    },
+    {
+      "id": "horde_c3s",
+      "name": "Арканщик",
+      "faction": "horde",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 110,
+      "armor": {
+        "cut": 0.2,
+        "pierce": 0.16,
+        "blunt": 0.12
+      },
+      "damage": 18,
+      "damageType": "cut",
+      "attackTime": 1.4,
+      "range": 0,
+      "speed": 2.35,
+      "crit": 0.08,
+      "dodge": 0.15,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 360,
+      "xpToUpgrade": 460,
+      "upgradesTo": [
+        "horde_c4s"
+      ],
+      "traits": [
+        "lasso"
+      ],
+      "look": {
+        "helmet": "fur",
+        "armor": "#8f7a5a",
+        "weapon": "sabre",
+        "shield": false,
+        "cloth": "#e0aa24"
+      },
+      "description": "Степняк с волосяным арканом: на полном скаку сдёргивает всадника с седла."
+    },
+    {
+      "id": "horde_c4s",
+      "name": "Багатур-арканщик",
+      "faction": "horde",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 128,
+      "armor": {
+        "cut": 0.3,
+        "pierce": 0.25,
+        "blunt": 0.18
+      },
+      "damage": 24,
+      "damageType": "cut",
+      "attackTime": 1.3,
+      "range": 0,
+      "speed": 2.35,
+      "crit": 0.12,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "lasso"
+      ],
+      "look": {
+        "helmet": "spired",
+        "armor": "#a08a60",
+        "weapon": "sabre",
+        "shield": false,
+        "cloth": "#e0aa24"
+      },
+      "description": "Прославленный багатур: его аркан не знает промаха, а сабля добивает упавших."
+    },
+    {
+      "id": "sultanate_i3s",
+      "name": "Наффатун",
+      "faction": "sultanate",
+      "tier": 3,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 64,
+      "armor": {
+        "cut": 0.12,
+        "pierce": 0.1,
+        "blunt": 0.08
+      },
+      "damage": 12,
+      "damageType": "blunt",
+      "attackTime": 4.6,
+      "range": 28,
+      "speed": 1,
+      "crit": 0.05,
+      "dodge": 0.15,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 160,
+      "xpToUpgrade": 340,
+      "upgradesTo": [
+        "sultanate_i4s"
+      ],
+      "traits": [
+        "firepot"
+      ],
+      "look": {
+        "helmet": "turban",
+        "armor": "#a08a60",
+        "weapon": "firepot",
+        "shield": false,
+        "cloth": "#35a066"
+      },
+      "description": "Метатель горшков с горящей нефтью. Огонь не гасят ни щит, ни кольчуга."
+    },
+    {
+      "id": "sultanate_i4s",
+      "name": "Мастер-наффатун",
+      "faction": "sultanate",
+      "tier": 4,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 80,
+      "armor": {
+        "cut": 0.2,
+        "pierce": 0.16,
+        "blunt": 0.12
+      },
+      "damage": 16,
+      "damageType": "blunt",
+      "attackTime": 4,
+      "range": 32,
+      "speed": 1,
+      "crit": 0.06,
+      "dodge": 0.15,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "firepot"
+      ],
+      "look": {
+        "helmet": "spired",
+        "armor": "#b0a890",
+        "weapon": "firepot",
+        "shield": false,
+        "cloth": "#35a066"
+      },
+      "description": "Хранитель тайны «греческого огня». Его горшки летят дальше и горят жарче."
+    },
+    {
+      "id": "sultanate_c3s",
+      "name": "Верблюжий всадник",
+      "faction": "sultanate",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 115,
+      "armor": {
+        "cut": 0.16,
+        "pierce": 0.13,
+        "blunt": 0.1
+      },
+      "damage": 18,
+      "damageType": "pierce",
+      "attackTime": 1.45,
+      "range": 0,
+      "speed": 1.9,
+      "crit": 0.07,
+      "dodge": 0.08,
+      "block": 0.12,
+      "hireCost": 0,
+      "upgradeCost": 360,
+      "xpToUpgrade": 460,
+      "upgradesTo": [
+        "sultanate_c4s"
+      ],
+      "traits": [
+        "camel"
+      ],
+      "look": {
+        "helmet": "turban",
+        "armor": "#a8a8a0",
+        "weapon": "spear",
+        "shield": true,
+        "camel": true,
+        "cloth": "#35a066"
+      },
+      "description": "Бедуин на боевом верблюде. Кони врага шарахаются от незнакомого запаха."
+    },
+    {
+      "id": "sultanate_c4s",
+      "name": "Хаджан",
+      "faction": "sultanate",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 125,
+      "armor": {
+        "cut": 0.24,
+        "pierce": 0.2,
+        "blunt": 0.14
+      },
+      "damage": 20,
+      "damageType": "pierce",
+      "attackTime": 1.9,
+      "range": 65,
+      "speed": 2,
+      "crit": 0.14,
+      "dodge": 0.1,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "camel",
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "spired",
+        "armor": "#b8b0a0",
+        "weapon": "bow",
+        "shield": false,
+        "camel": true,
+        "cloth": "#35a066"
+      },
+      "description": "Стрелок на быстром верблюде: бьёт издалека, а кони не смеют к нему подступиться."
+    },
+    {
+      "id": "outlaw_bandit",
+      "name": "Разбойник",
+      "faction": "outlaw",
+      "tier": 1,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 40,
+      "armor": {
+        "cut": 0.05,
+        "pierce": 0.04,
+        "blunt": 0.03
+      },
+      "damage": 8,
+      "damageType": "blunt",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.07,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "hood",
+        "cloth": "#6a3a2a",
+        "armor": "#6a5a40",
+        "weapon": "mace",
+        "shield": false
+      },
+      "description": "Лесной грабитель с дубиной. Опасен только толпой."
+    },
+    {
+      "id": "outlaw_archer",
+      "name": "Разбойник-лучник",
+      "faction": "outlaw",
+      "tier": 2,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 50,
+      "armor": {
+        "cut": 0.05,
+        "pierce": 0.04,
+        "blunt": 0.03
+      },
+      "damage": 11,
+      "damageType": "pierce",
+      "attackTime": 2.3,
+      "range": 65,
+      "speed": 1,
+      "crit": 0.07,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "hood",
+        "cloth": "#4a5a32",
+        "armor": "#5a4a38",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Бьёт из засады и сразу уходит в чащу."
+    },
+    {
+      "id": "outlaw_leader",
+      "name": "Главарь шайки",
+      "faction": "outlaw",
+      "tier": 3,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 90,
+      "armor": {
+        "cut": 0.25,
+        "pierce": 0.2,
+        "blunt": 0.12
+      },
+      "damage": 17,
+      "damageType": "cut",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.07,
+      "dodge": 0.12,
+      "block": 0.12,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "nasal",
+        "cloth": "#5a2a22",
+        "armor": "#8a8f96",
+        "weapon": "axe",
+        "shield": true
+      },
+      "description": "Бывший наёмник, ставший атаманом."
+    },
+    {
+      "id": "outlaw_pirate",
+      "name": "Морской разбойник",
+      "faction": "outlaw",
+      "tier": 2,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 60,
+      "armor": {
+        "cut": 0.1,
+        "pierce": 0.08,
+        "blunt": 0.06
+      },
+      "damage": 13,
+      "damageType": "cut",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.07,
+      "dodge": 0.12,
+      "block": 0.12,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "javelin",
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "cap",
+        "cloth": "#2a3a5a",
+        "armor": "#6a5a40",
+        "weapon": "axe",
+        "shield": true
+      },
+      "description": "Грабит берега с быстрых ладей."
+    },
+    {
+      "id": "outlaw_raider",
+      "name": "Степной налётчик",
+      "faction": "outlaw",
+      "tier": 2,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 75,
+      "armor": {
+        "cut": 0.05,
+        "pierce": 0.04,
+        "blunt": 0.03
+      },
+      "damage": 12,
+      "damageType": "pierce",
+      "attackTime": 2,
+      "range": 55,
+      "speed": 2.3,
+      "crit": 0.07,
+      "dodge": 0.15,
+      "block": 0,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "feint",
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "fur",
+        "cloth": "#7a5a32",
+        "armor": "#6a4a2c",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Налетает, осыпает стрелами и исчезает в степи."
+    },
+    {
+      "id": "outlaw_desert",
+      "name": "Пустынный разбойник",
+      "faction": "outlaw",
+      "tier": 2,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 80,
+      "armor": {
+        "cut": 0.1,
+        "pierce": 0.08,
+        "blunt": 0.06
+      },
+      "damage": 15,
+      "damageType": "cut",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 2.2,
+      "crit": 0.07,
+      "dodge": 0.12,
+      "block": 0.12,
+      "hireCost": 0,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "turban",
+        "cloth": "#3a3028",
+        "armor": "#8a7a5a",
+        "weapon": "sabre",
+        "shield": true
+      },
+      "description": "Всадник пустыни, грабящий караваны."
+    },
+    {
+      "id": "merc_genoese",
+      "name": "Генуэзский арбалетчик",
+      "faction": "outlaw",
+      "tier": 3,
+      "line": "infantry",
+      "role": "ranged",
+      "hp": 70,
+      "armor": {
+        "cut": 0.22,
+        "pierce": 0.2,
+        "blunt": 0.12
+      },
+      "damage": 20,
+      "damageType": "pierce",
+      "attackTime": 2.8,
+      "range": 75,
+      "speed": 1,
+      "crit": 0.07,
+      "dodge": 0.12,
+      "block": 0.2,
+      "hireCost": 160,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "pavise"
+      ],
+      "look": {
+        "helmet": "kettle",
+        "cloth": "#c83030",
+        "armor": "#9aa0a8",
+        "weapon": "crossbow",
+        "shield": true
+      },
+      "description": "Лучшие стрелки Европы: большой арбалет и павеза за спиной. Служат за звонкую монету."
+    },
+    {
+      "id": "merc_swiss",
+      "name": "Швейцарский алебардщик",
+      "faction": "outlaw",
+      "tier": 3,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 85,
+      "armor": {
+        "cut": 0.25,
+        "pierce": 0.2,
+        "blunt": 0.14
+      },
+      "damage": 21,
+      "damageType": "cut",
+      "attackTime": 1.7,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.07,
+      "dodge": 0.12,
+      "block": 0,
+      "hireCost": 150,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "brace",
+        "twohand"
+      ],
+      "look": {
+        "helmet": "kettle",
+        "cloth": "#b83a3a",
+        "armor": "#a0a6ae",
+        "weapon": "halberd",
+        "shield": false
+      },
+      "description": "Горцы из лесных кантонов. После Моргартена рыцари их побаиваются."
+    },
+    {
+      "id": "merc_almogavar",
+      "name": "Альмогавар",
+      "faction": "outlaw",
+      "tier": 3,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 75,
+      "armor": {
+        "cut": 0.12,
+        "pierce": 0.1,
+        "blunt": 0.06
+      },
+      "damage": 18,
+      "damageType": "pierce",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 1.2,
+      "crit": 0.07,
+      "dodge": 0.2,
+      "block": 0,
+      "hireCost": 130,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "brace",
+        "javelin"
+      ],
+      "look": {
+        "helmet": "cap",
+        "cloth": "#8a5a2a",
+        "armor": "#6a5a40",
+        "weapon": "spear",
+        "shield": false
+      },
+      "description": "Каталонские ветераны Великой компании: легки, быстры и безжалостны."
+    },
+    {
+      "id": "merc_knight",
+      "name": "Странствующий рыцарь",
+      "faction": "outlaw",
+      "tier": 4,
+      "line": "cavalry",
+      "role": "melee",
+      "hp": 150,
+      "armor": {
+        "cut": 0.42,
+        "pierce": 0.36,
+        "blunt": 0.22
+      },
+      "damage": 30,
+      "damageType": "pierce",
+      "attackTime": 1.5,
+      "range": 0,
+      "speed": 2.1,
+      "crit": 0.07,
+      "dodge": 0.12,
+      "block": 0.25,
+      "hireCost": 320,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [],
+      "look": {
+        "helmet": "great",
+        "cloth": "#3a3a4a",
+        "armor": "#b8bec6",
+        "weapon": "lance",
+        "shield": true
+      },
+      "description": "Рыцарь без земли, продающий копьё. Страшен в таранном ударе."
+    },
+    {
+      "id": "merc_turcopole",
+      "name": "Туркопол-наёмник",
+      "faction": "outlaw",
+      "tier": 3,
+      "line": "cavalry",
+      "role": "ranged",
+      "hp": 95,
+      "armor": {
+        "cut": 0.16,
+        "pierce": 0.12,
+        "blunt": 0.08
+      },
+      "damage": 17,
+      "damageType": "pierce",
+      "attackTime": 2,
+      "range": 60,
+      "speed": 2.4,
+      "crit": 0.07,
+      "dodge": 0.18,
+      "block": 0,
+      "hireCost": 220,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "skirmish"
+      ],
+      "look": {
+        "helmet": "spired",
+        "cloth": "#5a4a3a",
+        "armor": "#8a7a5a",
+        "weapon": "bow",
+        "shield": false
+      },
+      "description": "Конный лучник, служивший и крестоносцам, и султанам."
+    },
+    {
+      "id": "merc_varangian",
+      "name": "Варяг",
+      "faction": "outlaw",
+      "tier": 4,
+      "line": "infantry",
+      "role": "melee",
+      "hp": 120,
+      "armor": {
+        "cut": 0.4,
+        "pierce": 0.32,
+        "blunt": 0.2
+      },
+      "damage": 27,
+      "damageType": "cut",
+      "attackTime": 1.8,
+      "range": 0,
+      "speed": 1,
+      "crit": 0.07,
+      "dodge": 0.12,
+      "block": 0.3,
+      "hireCost": 260,
+      "upgradeCost": 0,
+      "xpToUpgrade": 0,
+      "upgradesTo": [],
+      "traits": [
+        "shieldwall"
+      ],
+      "look": {
+        "helmet": "nasal",
+        "cloth": "#6a2a2a",
+        "armor": "#9aa0a8",
+        "weapon": "axe",
+        "shield": true
+      },
+      "description": "Северянин из бывшей стражи василевса. Секира и щит — вот и вся его вера."
+    }
+  ]
+}

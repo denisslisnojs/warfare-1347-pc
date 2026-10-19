@@ -1,0 +1,407 @@
+{
+ "faction": "vallerois",
+ "name": "Королевство Валлеруа",
+ "nameOf": "королевства Валлеруа",
+ "nameEn": "Kingdom of Vallerois",
+ "motto": "Земля кормит. Меч защищает. Корона объединяет.",
+ "lore": "Богатое королевство запада. Каменные города, соборы и мосты стоят среди виноградников и полей, и дороги здесь лучше, чем где-либо ещё. Корона опирается на рыцарей, но не меньше на города и их казну. Валлеруа сильна тяжёлой конницей и умеет платить за долгую войну.",
+ "color": [
+  0.72,
+  0.1,
+  0.1
+ ],
+ "trim": [
+  0.98,
+  0.8,
+  0.36
+ ],
+ "status": "approved-layout",
+ "towns": [
+  {
+   "id": "monreval",
+   "name": "Монреваль",
+   "nameEn": "Monreval",
+   "lon": 0.84,
+   "lat": 47.45,
+   "capital": true,
+   "note": "столица на двух берегах Луары, в Великой Валлерской долине; королевская цитадель — часть города",
+   "model": "capital",
+   "about": "Столица на двух берегах Луары, в Великой Валлерской долине. Королевская цитадель стоит прямо в городе."
+  },
+  {
+   "id": "belleroche",
+   "name": "Беллерош",
+   "nameEn": "Belleroche",
+   "lon": 4.32,
+   "lat": 45.84,
+   "note": "скалистые берега Роны, оружейники и литейни",
+   "model": "large",
+   "about": "Город на скалистых берегах Роны. Здесь работают оружейники и литейщики."
+  },
+  {
+   "id": "rocheval",
+   "name": "Рошеваль",
+   "nameEn": "Rocheval",
+   "lon": 7.34,
+   "lat": 48.4,
+   "note": "у западных предгорий восточных гор, дорога вглубь Евразии",
+   "model": "medium",
+   "about": "Город у западных предгорий. Отсюда уходит дорога на восток, в глубь материка."
+  },
+  {
+   "id": "ardenval",
+   "name": "Арденваль",
+   "nameEn": "Ardenval",
+   "lon": 5.2,
+   "lat": 50.2,
+   "note": "север, лесистые холмы, лес и железо",
+   "model": "medium",
+   "about": "Северный город среди лесистых холмов. Он богат лесом и железом."
+  },
+  {
+   "id": "valcourt",
+   "name": "Валкур",
+   "nameEn": "Valcourt",
+   "lon": 2.92,
+   "lat": 48.92,
+   "note": "центральный рынок, конные ярмарки и турниры; крепость Валкур — часть города",
+   "model": "large",
+   "about": "Главный рынок королевства. Здесь проходят конные ярмарки и турниры."
+  },
+  {
+   "id": "loremont",
+   "name": "Лоремонт",
+   "nameEn": "Loremont",
+   "lon": 0.2,
+   "lat": 44.9,
+   "note": "юг, виноградники и монастыри",
+   "model": "large",
+   "about": "Южный город виноградников и монастырей."
+  },
+  {
+   "id": "saint_marelle",
+   "name": "Сен-Марель",
+   "nameEn": "Saint-Marelle",
+   "lon": -4.3,
+   "lat": 48.4,
+   "note": "морская гавань на западе, флот",
+   "model": "medium",
+   "about": "Морская гавань на западе, где стоит королевский флот."
+  }
+ ],
+ "castles": [
+  {
+   "id": "belleroche_castle",
+   "name": "Замок Беллерош",
+   "nameEn": "Belleroche Castle",
+   "lon": 3.82,
+   "lat": 44.2,
+   "note": "резиденция герцогов Беллерош",
+   "model": "grand",
+   "about": "Резиденция герцогов Беллерош."
+  },
+  {
+   "id": "rocheval_fortress",
+   "name": "Крепость Рошеваль",
+   "nameEn": "Rocheval Fortress",
+   "lon": 6.94,
+   "lat": 47.64,
+   "note": "пограничная твердыня на проходе с востока",
+   "model": "fortress",
+   "about": "Пограничная твердыня на проходе с востока."
+  },
+  {
+   "id": "arden_keep",
+   "name": "Замок Арден",
+   "nameEn": "Arden Keep",
+   "lon": 4.4,
+   "lat": 49.7,
+   "note": "старый замок среди лесов",
+   "model": "keep",
+   "about": "Старый замок среди лесов."
+  },
+  {
+   "id": "durive_castle",
+   "name": "Замок Дюрив",
+   "nameEn": "Durive Castle",
+   "lon": 3.11,
+   "lat": 45.87,
+   "note": "речной замок у переправы через Луару, пошлины",
+   "model": "moat",
+   "about": "Речной замок у переправы через Луару. Здесь берут пошлину с каждой лодки."
+  },
+  {
+   "id": "blancfleur_castle",
+   "name": "Замок Бланфлёр",
+   "nameEn": "Blancfleur Castle",
+   "lon": 0.01,
+   "lat": 49.09,
+   "note": "старинная дворянская резиденция",
+   "model": "chateau",
+   "about": "Старинная резиденция знатного рода."
+  },
+  {
+   "id": "grandpont_fort",
+   "name": "Форт Гранпон",
+   "nameEn": "Grandpont Fort",
+   "lon": -0.86,
+   "lat": 47.57,
+   "note": "у большого каменного моста на пути к столице",
+   "model": "fortress",
+   "about": "Крепость у большого каменного моста на пути к столице."
+  }
+ ],
+ "villages": [
+  {
+   "id": "villenois",
+   "name": "Вильнуа",
+   "nameEn": "Villenois",
+   "owner": "monreval",
+   "lon": 1.77,
+   "lat": 47.26,
+   "note": "пшеница у Монреваля",
+   "source": "lore",
+   "model": "mill",
+   "about": "Пшеничные поля у Монреваля."
+  },
+  {
+   "id": "montel",
+   "name": "Монтель",
+   "nameEn": "Montel",
+   "owner": "monreval",
+   "lon": 2.89,
+   "lat": 47.88,
+   "note": "холм у королевского тракта",
+   "source": "lore",
+   "model": "mill",
+   "about": "Деревня на холме у королевского тракта."
+  },
+  {
+   "id": "villeroche",
+   "name": "Виллерош",
+   "nameEn": "Villeroche",
+   "owner": "belleroche",
+   "lon": 4.03,
+   "lat": 44.57,
+   "note": "каменоломни над Роной",
+   "source": "new",
+   "model": "hamlet",
+   "about": "Каменоломни над Роной."
+  },
+  {
+   "id": "rochemont",
+   "name": "Рошмон",
+   "nameEn": "Rochemont",
+   "owner": "belleroche",
+   "lon": 5.05,
+   "lat": 46.6,
+   "note": "рудники в предгорьях",
+   "source": "new",
+   "model": "hamlet",
+   "about": "Рудники в предгорьях."
+  },
+  {
+   "id": "evremont",
+   "name": "Эвремон",
+   "nameEn": "Evremont",
+   "owner": "rocheval",
+   "lon": 6.7,
+   "lat": 48.9,
+   "note": "приграничье, леса и сторожевые дороги",
+   "source": "lore",
+   "model": "hamlet",
+   "about": "Приграничье. Леса и дороги, по которым ходят дозоры."
+  },
+  {
+   "id": "saint_gilles",
+   "name": "Сен-Жиль",
+   "nameEn": "Saint-Gilles",
+   "owner": "rocheval",
+   "lon": 7.0,
+   "lat": 49.3,
+   "note": "придорожная деревня у восточного тракта",
+   "source": "new",
+   "model": "village",
+   "about": "Придорожная деревня у восточного тракта."
+  },
+  {
+   "id": "aubren",
+   "name": "Обрен",
+   "nameEn": "Aubren",
+   "owner": "ardenval",
+   "lon": 5.9,
+   "lat": 49.8,
+   "note": "дубовый лес, угольщики и плотники",
+   "source": "lore",
+   "model": "hamlet",
+   "about": "Деревня в дубовом лесу. Здесь живут угольщики и плотники."
+  },
+  {
+   "id": "vermont",
+   "name": "Вермон",
+   "nameEn": "Vermont",
+   "owner": "ardenval",
+   "lon": 4.5,
+   "lat": 50.6,
+   "note": "лесная деревня, охотники и сокольники",
+   "source": "new",
+   "model": "hamlet",
+   "about": "Лесная деревня охотников и сокольников."
+  },
+  {
+   "id": "valpre",
+   "name": "Вальпре",
+   "nameEn": "Valpre",
+   "owner": "valcourt",
+   "lon": 5.0,
+   "lat": 47.94,
+   "note": "речная долина, зерно и кони",
+   "source": "lore",
+   "model": "mill",
+   "about": "Деревня в речной долине. Здесь растят зерно и коней."
+  },
+  {
+   "id": "bellefont",
+   "name": "Бельфонт",
+   "nameEn": "Bellefont",
+   "owner": "valcourt",
+   "lon": 3.54,
+   "lat": 48.7,
+   "note": "каменный источник и часовня",
+   "source": "lore",
+   "model": "village",
+   "about": "Каменный источник и часовня при нём."
+  },
+  {
+   "id": "chanten",
+   "name": "Шантен",
+   "nameEn": "Chanten",
+   "owner": "loremont",
+   "lon": 0.9,
+   "lat": 44.5,
+   "note": "виноделие на юге",
+   "source": "lore",
+   "model": "vineyard",
+   "about": "Южная деревня виноделов."
+  },
+  {
+   "id": "saint_laurent",
+   "name": "Сен-Лоран",
+   "nameEn": "Saint-Laurent",
+   "owner": "loremont",
+   "lon": -0.5,
+   "lat": 45.4,
+   "note": "монастырские земли и сады",
+   "source": "new",
+   "model": "vineyard",
+   "about": "Монастырские земли и сады."
+  },
+  {
+   "id": "la_marelle",
+   "name": "Ла-Маре",
+   "nameEn": "La Marelle",
+   "owner": "saint_marelle",
+   "lon": -3.0,
+   "lat": 48.46,
+   "note": "низины, пастбища, шерсть",
+   "source": "lore",
+   "model": "village",
+   "about": "Низины и пастбища. Здешнюю шерсть знают на всех рынках."
+  },
+  {
+   "id": "marval",
+   "name": "Марваль",
+   "nameEn": "Marval",
+   "owner": "saint_marelle",
+   "lon": -3.4,
+   "lat": 48.0,
+   "note": "рыбаки и солевары на побережье",
+   "source": "new",
+   "model": "village",
+   "about": "Рыбаки и солевары на побережье."
+  },
+  {
+   "id": "corval",
+   "name": "Корваль",
+   "nameEn": "Corval",
+   "owner": "belleroche_castle",
+   "lon": 3.71,
+   "lat": 45.25,
+   "note": "горная деревня у старой сигнальной башни",
+   "source": "new",
+   "model": "hamlet",
+   "about": "Горная деревня у старой сигнальной башни."
+  },
+  {
+   "id": "merville",
+   "name": "Мервиль",
+   "nameEn": "Merville",
+   "owner": "rocheval_fortress",
+   "lon": 6.3,
+   "lat": 47.3,
+   "note": "обозная деревня при крепости",
+   "source": "new",
+   "model": "village",
+   "about": "Обозная деревня при крепости."
+  },
+  {
+   "id": "rochelle",
+   "name": "Рошель",
+   "nameEn": "Rochelle",
+   "owner": "arden_keep",
+   "lon": 3.7,
+   "lat": 49.9,
+   "note": "лесорубы и смолокуры",
+   "source": "new",
+   "model": "hamlet",
+   "about": "Деревня лесорубов и смолокуров."
+  },
+  {
+   "id": "rovelle",
+   "name": "Ровель",
+   "nameEn": "Rovelle",
+   "owner": "durive_castle",
+   "lon": 3.19,
+   "lat": 46.26,
+   "note": "рыбацкая деревня у изгиба Луары, переправа",
+   "source": "lore",
+   "model": "village",
+   "about": "Рыбацкая деревня у изгиба Луары, где ходит паром."
+  },
+  {
+   "id": "fontenois",
+   "name": "Фонтенуа",
+   "nameEn": "Fontenois",
+   "owner": "blancfleur_castle",
+   "lon": 1.5,
+   "lat": 49.68,
+   "note": "мельницы и каналы",
+   "source": "lore",
+   "model": "mill",
+   "about": "Деревня мельниц и каналов."
+  },
+  {
+   "id": "belle_rive",
+   "name": "Бельрив",
+   "nameEn": "Belle-Rive",
+   "owner": "grandpont_fort",
+   "lon": -1.06,
+   "lat": 46.85,
+   "note": "речная пристань в низовьях Луары (в лоре — город)",
+   "source": "lore",
+   "model": "village",
+   "about": "Речная пристань в низовьях Луары."
+  }
+ ],
+ "removed": {
+  "towns": [
+   "Клервиль / Clairville — убран ради 7 городов; может вернуться аббатством или городом",
+   "Бельрив / Belle-Rive — стал деревней"
+  ],
+  "castles": [
+   "Королевская цитадель — часть Монреваля",
+   "Крепость Валкур — часть Валкура",
+   "Башня Корваль — имя у горной деревни"
+  ]
+ }
+}

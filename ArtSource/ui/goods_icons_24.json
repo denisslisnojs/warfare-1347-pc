@@ -1,0 +1,9 @@
+{
+ "cols": 6,
+ "rows": 4,
+ "prefix": "good_",
+ "order": ["grain", "flour", "bread", "apples", "cheese", "fish",
+           "meat", "salt", "honey", "wine", "ale", "oil",
+           "iron_ore", "iron", "copper", "charcoal", "tools", "timber",
+           "wool", "leather", "linen", "cloth", "silk", "spices"]
+}

@@ -1,0 +1,52 @@
+{
+  "seed": 1347,
+  "types": {
+    "windmill": {
+      "model": "WorldLandmark_windmill",
+      "scale": 1.0,
+      "place": "village",
+      "chance": 0.4,
+      "distance": [2.5, 5],
+      "maxSlope": 1.2,
+      "clear": 2.5,
+      "spin": "Blades",
+      "spinSpeed": 25,
+      "skipFactions": ["khordan"]
+    },
+    "ruined_house": {
+      "model": "WorldLandmark_ruined_house",
+      "scale": 1.0,
+      "place": "open",
+      "step": 70,
+      "chance": 0.35,
+      "fromSettlement": 12,
+      "maxSlope": 1.4,
+      "clear": 2,
+      "biomes": ["grass", "steppe", "dry", "tundra", "forest"]
+    },
+    "castle_ruins": {
+      "model": "WorldLandmark_castle_ruins",
+      "scale": 1.0,
+      "place": "hill",
+      "step": 160,
+      "chance": 0.5,
+      "prominence": 1.5,
+      "fromSettlement": 25,
+      "maxSlope": 2.0,
+      "clear": 4.5,
+      "biomes": ["grass", "steppe", "dry", "tundra", "forest"]
+    },
+    "castle_wall": {
+      "model": "WorldLandmark_castle_wall",
+      "scale": 1.0,
+      "place": "hill",
+      "step": 140,
+      "chance": 0.4,
+      "prominence": 1.0,
+      "fromSettlement": 20,
+      "maxSlope": 2.0,
+      "clear": 3.5,
+      "biomes": ["grass", "steppe", "dry", "tundra", "forest"]
+    }
+  }
+}

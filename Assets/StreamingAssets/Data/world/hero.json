@@ -1,0 +1,15 @@
+{
+  "name": "Герой",
+  "faction": "vallerois",
+  "start": "monreval",
+  "look": {
+    "mount": "horse",
+    "body": "mail",
+    "head": "bascinet",
+    "shield": "heater",
+    "banner": "standard"
+  },
+  "gold": 9999,
+  "equipment": {},
+  "companions": []
+}

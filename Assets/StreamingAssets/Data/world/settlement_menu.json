@@ -1,0 +1,21 @@
+{
+ "town": [
+  {"id": "barracks", "name": "Казармы", "nameEn": "Barracks"},
+  {"id": "market", "name": "Рынок", "nameEn": "Market", "open": "market"},
+  {"id": "tavern", "name": "Таверна", "nameEn": "Tavern"},
+  {"id": "arena", "name": "Арена", "nameEn": "Arena"},
+  {"id": "lord", "name": "Замок лорда", "nameEn": "Lord's Castle", "capitalName": "Тронный зал", "capitalNameEn": "Throne Room"},
+  {"id": "leave", "name": "Покинуть", "nameEn": "Leave"}
+ ],
+ "castle": [
+  {"id": "barracks", "name": "Казармы", "nameEn": "Barracks"},
+  {"id": "lord", "name": "Зал лорда", "nameEn": "Lord's Hall"},
+  {"id": "leave", "name": "Покинуть", "nameEn": "Leave"}
+ ],
+ "village": [
+  {"id": "militia", "name": "Казармы ополчения", "nameEn": "Militia Barracks"},
+  {"id": "trade", "name": "Торговать с крестьянами", "nameEn": "Trade with Peasants", "open": "market"},
+  {"id": "elder", "name": "Поговорить со старостой", "nameEn": "Talk to the Elder"},
+  {"id": "leave", "name": "Покинуть", "nameEn": "Leave"}
+ ]
+}

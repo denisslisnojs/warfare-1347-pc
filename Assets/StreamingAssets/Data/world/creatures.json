@@ -1,0 +1,69 @@
+{
+  "creatures": {
+    "cow": {
+      "models": ["WorldCreature_Cow", "WorldCreature_Cow", "WorldCreature_Bull"],
+      "length": 1.26,
+      "speed": 0.18
+    },
+    "horse": {
+      "models": ["WorldCreature_Horse", "WorldCreature_Horse", "WorldCreature_Horse_White"],
+      "length": 1.56,
+      "speed": 0.3
+    },
+    "donkey": {
+      "models": ["WorldCreature_Donkey"],
+      "length": 1.2,
+      "speed": 0.2
+    },
+    "deer": {
+      "models": ["WorldCreature_Deer", "WorldCreature_Deer", "WorldCreature_Stag"],
+      "length": 1.32,
+      "speed": 0.35
+    },
+    "wolf": {
+      "models": ["WorldCreature_Wolf"],
+      "length": 1.14,
+      "speed": 0.4
+    },
+    "fox": {
+      "models": ["WorldCreature_Fox"],
+      "length": 0.72,
+      "speed": 0.35
+    }
+  },
+  "wild": [
+    {
+      "kind": "deer",
+      "biomes": ["forest", "grass", "taiga"],
+      "step": 40,
+      "chance": 0.22,
+      "group": [2, 4],
+      "roam": 8,
+      "fromSettlement": 12
+    },
+    {
+      "kind": "wolf",
+      "biomes": ["taiga", "tundra"],
+      "step": 55,
+      "chance": 0.25,
+      "group": [2, 4],
+      "roam": 10,
+      "fromSettlement": 16
+    },
+    {
+      "kind": "fox",
+      "biomes": ["grass", "forest", "steppe"],
+      "step": 50,
+      "chance": 0.15,
+      "group": [1, 1],
+      "roam": 6,
+      "fromSettlement": 10
+    }
+  ],
+  "ships": {
+    "shipScale": 5.4,
+    "boatScale": 3.2,
+    "seaSpeed": 1.2,
+    "fishingSpeed": 0.35
+  }
+}

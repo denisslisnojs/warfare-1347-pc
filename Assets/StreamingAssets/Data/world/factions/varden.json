@@ -1,0 +1,397 @@
+{
+ "faction": "varden",
+ "name": "Княжество Варден",
+ "nameOf": "княжества Варден",
+ "nameEn": "Principality of Varden",
+ "motto": "Крепка земля людьми, а князь дружиной.",
+ "lore": "Княжество лесов, рек и долгих зим на северо-востоке. Деревянные стены и терема стоят над речными пристанями, а зимой санный путь надёжнее летней дороги. Северные мореходы и южные купцы оставили здесь свой след. Сила Вардена в дружине при князе и в людях, что держат эту землю.",
+ "color": [
+  0.12,
+  0.46,
+  0.2
+ ],
+ "trim": [
+  0.78,
+  0.95,
+  0.7
+ ],
+ "status": "approved-layout",
+ "towns": [
+  {
+   "id": "velegrad",
+   "name": "Велеград",
+   "nameEn": "Velegrad",
+   "lon": 43.83,
+   "lat": 55.77,
+   "note": "столица на высоком берегу у слияния Оки и Волги",
+   "capital": true,
+   "model": "capital",
+   "about": "Столица на высоком берегу у слияния Оки и Волги."
+  },
+  {
+   "id": "ladomir",
+   "name": "Ладомир",
+   "nameEn": "Ladomir",
+   "lon": 28.1,
+   "lat": 58.3,
+   "note": "у большого озера, западные дороги",
+   "model": "medium",
+   "about": "Город у большого озера, откуда уходят западные дороги."
+  },
+  {
+   "id": "starobor",
+   "name": "Старобор",
+   "nameEn": "Starobor",
+   "lon": 32.0,
+   "lat": 60.15,
+   "note": "север, хвойные леса, у Ладоги",
+   "model": "medium",
+   "about": "Северный город среди хвойных лесов у Ладоги."
+  },
+  {
+   "id": "rudensk",
+   "name": "Руденск",
+   "nameEn": "Rudensk",
+   "lon": 37.6,
+   "lat": 54.2,
+   "note": "железо и кузницы",
+   "model": "large",
+   "about": "Город железа и кузниц."
+  },
+  {
+   "id": "beloyar",
+   "name": "Белояр",
+   "nameEn": "Beloyar",
+   "lon": 38.69,
+   "lat": 51.77,
+   "note": "юг, житница, на Дону",
+   "model": "medium",
+   "about": "Южная житница княжества на Дону."
+  },
+  {
+   "id": "ostren",
+   "name": "Острен",
+   "nameEn": "Ostren",
+   "lon": 47.95,
+   "lat": 54.44,
+   "note": "восточная граница на Волге, лицом к лесостепи",
+   "model": "large",
+   "about": "Восточный рубеж на Волге. За ним начинается лесостепь."
+  },
+  {
+   "id": "zlatin",
+   "name": "Златин",
+   "nameEn": "Zlatin",
+   "lon": 40.4,
+   "lat": 56.2,
+   "note": "церковный центр",
+   "model": "large",
+   "about": "Город церквей и монастырей."
+  }
+ ],
+ "castles": [
+  {
+   "id": "cherny_bor",
+   "name": "Острог Черный Бор",
+   "nameEn": "Cherny Bor Ostrog",
+   "lon": 41.54,
+   "lat": 60.06,
+   "note": "путь к меховым землям",
+   "model": "ostrog",
+   "about": "Острог на пути к меховым землям."
+  },
+  {
+   "id": "white_stone",
+   "name": "Крепость Белый Камень",
+   "nameEn": "White Stone Fortress",
+   "lon": 37.2,
+   "lat": 50.8,
+   "note": "каменная южная граница",
+   "model": "stone",
+   "about": "Каменная крепость на южной границе."
+  },
+  {
+   "id": "northern_gate",
+   "name": "Северные Ворота",
+   "nameEn": "Northern Gate",
+   "lon": 43.31,
+   "lat": 63.13,
+   "note": "долина Северной Двины, путь к морю",
+   "model": "mixed",
+   "about": "Застава в долине Северной Двины, на пути к морю."
+  },
+  {
+   "id": "icy_ford",
+   "name": "Острог Ледяной Брод",
+   "nameEn": "Icy Ford Ostrog",
+   "lon": 35.66,
+   "lat": 56.76,
+   "note": "зимняя переправа через верхнюю Волгу",
+   "model": "ostrog",
+   "about": "Острог у зимней переправы через верхнюю Волгу."
+  },
+  {
+   "id": "knyazhy_kholm",
+   "name": "Крепость Княжий Холм",
+   "nameEn": "Knyazhy Kholm Fortress",
+   "lon": 32.24,
+   "lat": 54.66,
+   "note": "старый удельный род на Днепре",
+   "model": "mixed",
+   "about": "Крепость старого удельного рода на Днепре."
+  },
+  {
+   "id": "zlatin_monastery",
+   "name": "Монастырская крепь Златина",
+   "nameEn": "Zlatin Monastery Fort",
+   "lon": 41.37,
+   "lat": 56.6,
+   "note": "монастырь-убежище",
+   "model": "monastery",
+   "about": "Монастырь за крепкими стенами. В лихие годы здесь укрываются окрестные сёла."
+  }
+ ],
+ "villages": [
+  {
+   "id": "berezov_brod",
+   "name": "Березов Брод",
+   "nameEn": "Berezov Brod",
+   "owner": "velegrad",
+   "lon": 42.94,
+   "lat": 57.11,
+   "note": "переправа через мелкую реку, стоянка купцов и гонцов",
+   "source": "lore",
+   "model": "selo",
+   "about": "Переправа через неглубокую реку. Здесь останавливаются купцы и гонцы."
+  },
+  {
+   "id": "mokry_lug",
+   "name": "Мокрый Луг",
+   "nameEn": "Mokry Lug",
+   "owner": "velegrad",
+   "lon": 42.9,
+   "lat": 55.58,
+   "note": "заливные луга на Оке, скот и рыба",
+   "source": "lore",
+   "model": "village",
+   "about": "Заливные луга на Оке. Здесь пасут скот и ловят рыбу."
+  },
+  {
+   "id": "zorino",
+   "name": "Зорино",
+   "nameEn": "Zorino",
+   "owner": "velegrad",
+   "lon": 44.88,
+   "lat": 55.59,
+   "note": "вотчина рода Зориных",
+   "source": "new",
+   "model": "selo",
+   "about": "Вотчина рода Зориных."
+  },
+  {
+   "id": "ladino",
+   "name": "Ладино",
+   "nameEn": "Ladino",
+   "owner": "ladomir",
+   "lon": 28.9,
+   "lat": 57.6,
+   "note": "вотчина рода Ладиных",
+   "source": "new",
+   "model": "village",
+   "about": "Вотчина рода Ладиных."
+  },
+  {
+   "id": "voronovo",
+   "name": "Вороново",
+   "nameEn": "Voronovo",
+   "owner": "ladomir",
+   "lon": 28.6,
+   "lat": 58.95,
+   "note": "у озера, ворон — знак боярского дома",
+   "source": "new",
+   "model": "village",
+   "about": "Деревня у озера. Ворон здесь знак боярского дома."
+  },
+  {
+   "id": "sosnovets",
+   "name": "Сосновец",
+   "nameEn": "Sosnovets",
+   "owner": "starobor",
+   "lon": 33.4,
+   "lat": 60.35,
+   "note": "лесорубы и смолокуры",
+   "source": "lore",
+   "model": "hamlet",
+   "about": "Деревня лесорубов и смолокуров."
+  },
+  {
+   "id": "vezhsk",
+   "name": "Вежск",
+   "nameEn": "Vezhsk",
+   "owner": "starobor",
+   "lon": 34.73,
+   "lat": 61.05,
+   "note": "бывший город из лора: протоки у Онеги, верфи и сушка рыбы",
+   "source": "lore",
+   "model": "village",
+   "about": "Протоки у Онеги. Здесь строят лодки и сушат рыбу."
+  },
+  {
+   "id": "kamenny_klyuch",
+   "name": "Каменный Ключ",
+   "nameEn": "Kamenny Klyuch",
+   "owner": "rudensk",
+   "lon": 38.56,
+   "lat": 54.7,
+   "note": "холодный источник на старой дороге к Руденску",
+   "source": "lore",
+   "model": "village",
+   "about": "Холодный ключ на старой дороге к Руденску."
+  },
+  {
+   "id": "rudnya",
+   "name": "Рудня",
+   "nameEn": "Rudnya",
+   "owner": "rudensk",
+   "lon": 36.9,
+   "lat": 53.8,
+   "note": "болотная руда для кузниц Руденска",
+   "source": "new",
+   "model": "hamlet",
+   "about": "Болото, где добывают руду для кузниц Руденска."
+  },
+  {
+   "id": "yaseni",
+   "name": "Ясени",
+   "nameEn": "Yaseni",
+   "owner": "beloyar",
+   "lon": 38.36,
+   "lat": 52.16,
+   "note": "сады и пашни юга",
+   "source": "lore",
+   "model": "village",
+   "about": "Сады и пашни юга."
+  },
+  {
+   "id": "zhitnoye",
+   "name": "Житное",
+   "nameEn": "Zhitnoye",
+   "owner": "beloyar",
+   "lon": 40.16,
+   "lat": 51.5,
+   "note": "зерно для житницы Белояра",
+   "source": "new",
+   "model": "village",
+   "about": "Деревня, что кормит житницу Белояра."
+  },
+  {
+   "id": "volchy_yar",
+   "name": "Волчий Яр",
+   "nameEn": "Volchy Yar",
+   "owner": "ostren",
+   "lon": 47.3,
+   "lat": 54.9,
+   "note": "холмистый лес, охотники и кожевники",
+   "source": "lore",
+   "model": "hamlet",
+   "about": "Холмистый лес. Здесь живут охотники и кожевники."
+  },
+  {
+   "id": "dozornoye",
+   "name": "Дозорное",
+   "nameEn": "Dozornoye",
+   "owner": "ostren",
+   "lon": 48.7,
+   "lat": 53.37,
+   "note": "дозор на дорогах в лесостепь",
+   "source": "new",
+   "model": "hamlet",
+   "about": "Дозорное село на дорогах в лесостепь."
+  },
+  {
+   "id": "serebryaniki",
+   "name": "Серебряники",
+   "nameEn": "Serebryaniki",
+   "owner": "zlatin",
+   "lon": 39.6,
+   "lat": 56.5,
+   "note": "серебряных дел мастера при Златине",
+   "source": "new",
+   "model": "selo",
+   "about": "Деревня серебряных дел мастеров при Златине."
+  },
+  {
+   "id": "medvezhye",
+   "name": "Медвежье",
+   "nameEn": "Medvezhye",
+   "owner": "cherny_bor",
+   "lon": 40.6,
+   "lat": 60.3,
+   "note": "охотники, бортники, сборщики воска",
+   "source": "lore",
+   "model": "hamlet",
+   "about": "Охотники и бортники. Отсюда везут мёд и воск."
+  },
+  {
+   "id": "dubrovo",
+   "name": "Дуброво",
+   "nameEn": "Dubrovo",
+   "owner": "white_stone",
+   "lon": 36.3,
+   "lat": 51.2,
+   "note": "большая деревня у дубового леса",
+   "source": "lore",
+   "model": "selo",
+   "about": "Большая деревня у дубового леса."
+  },
+  {
+   "id": "zimniki",
+   "name": "Зимники",
+   "nameEn": "Zimniki",
+   "owner": "northern_gate",
+   "lon": 43.54,
+   "lat": 62.06,
+   "note": "у старого зимнего тракта",
+   "source": "lore",
+   "model": "hamlet",
+   "about": "Деревня у старого зимнего тракта."
+  },
+  {
+   "id": "rechany",
+   "name": "Речаны",
+   "nameEn": "Rechany",
+   "owner": "icy_ford",
+   "lon": 36.82,
+   "lat": 57.65,
+   "note": "лодочники на Волге",
+   "source": "lore",
+   "model": "village",
+   "about": "Лодочники на Волге."
+  },
+  {
+   "id": "ratichi",
+   "name": "Ратичи",
+   "nameEn": "Ratichi",
+   "owner": "knyazhy_kholm",
+   "lon": 31.32,
+   "lat": 54.3,
+   "note": "вотчина рода Ратичей",
+   "source": "new",
+   "model": "village",
+   "about": "Вотчина рода Ратичей."
+  },
+  {
+   "id": "belozorye",
+   "name": "Белозорье",
+   "nameEn": "Belozorye",
+   "owner": "zlatin_monastery",
+   "lon": 41.12,
+   "lat": 57.0,
+   "note": "монастырская деревня, вотчина рода Белозоров",
+   "source": "new",
+   "model": "selo",
+   "about": "Монастырская деревня, вотчина рода Белозоров."
+  }
+ ],
+ "removed": "Вежск — из городов в деревни (его роль покрывают Ладомир и Старобор); детинцы Велеграда и Острена — часть своих городов"
+}

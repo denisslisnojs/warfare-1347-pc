@@ -1,0 +1,307 @@
+{
+  "seed": 1347,
+  "southLat": 44,
+  "northLat": 55,
+  "cellSize": 128,
+  "groups": {
+    "broad": {
+      "radius": 0.62,
+      "scale": [0.85, 1.15],
+      "shadows": true,
+      "draw": 900
+    },
+    "light": {
+      "radius": 0.5,
+      "scale": [0.85, 1.15],
+      "shadows": true,
+      "draw": 900
+    },
+    "young": {
+      "radius": 0.35,
+      "scale": [0.8, 1.2],
+      "shadows": true,
+      "draw": 700
+    },
+    "bush": {
+      "radius": 0.2,
+      "scale": [0.8, 1.3],
+      "shadows": false,
+      "draw": 450
+    },
+    "spruce": {
+      "radius": 0.58,
+      "scale": [0.85, 1.15],
+      "shadows": true,
+      "draw": 900
+    },
+    "pine": {
+      "radius": 0.55,
+      "scale": [0.85, 1.15],
+      "shadows": true,
+      "draw": 900
+    },
+    "youngfir": {
+      "radius": 0.22,
+      "scale": [0.8, 1.25],
+      "shadows": true,
+      "draw": 700
+    },
+    "cypress": {
+      "radius": 0.28,
+      "scale": [0.85, 1.15],
+      "shadows": true,
+      "draw": 900
+    },
+    "dead": {
+      "radius": 0.4,
+      "scale": [0.85, 1.15],
+      "shadows": true,
+      "draw": 800
+    },
+    "rock": {
+      "models": "rock",
+      "radius": 0.36,
+      "shadows": false,
+      "draw": 380
+    },
+    "boulder": {
+      "models": "rock",
+      "radius": 0.36,
+      "shadows": true,
+      "draw": 900
+    },
+    "rockbig": {
+      "models": "rock",
+      "radius": 0.36,
+      "shadows": true,
+      "draw": 750
+    }
+  },
+  "biomes": {
+    "grass": {
+      "groves": 0.32,
+      "solitary": 0.006,
+      "banks": 0.25,
+      "mix": {
+        "broad": 0.6,
+        "light": 0.15,
+        "young": 0.12,
+        "bush": 0.13
+      },
+      "south": {
+        "broad": 0.45,
+        "cypress": 0.2,
+        "light": 0.1,
+        "bush": 0.25
+      },
+      "north": {
+        "spruce": 0.3,
+        "pine": 0.2,
+        "broad": 0.2,
+        "light": 0.15,
+        "bush": 0.15
+      }
+    },
+    "forest": {
+      "forest": true,
+      "mix": {
+        "broad": 0.6,
+        "light": 0.15,
+        "spruce": 0.15,
+        "young": 0.05,
+        "bush": 0.05
+      },
+      "south": {
+        "broad": 0.6,
+        "light": 0.1,
+        "cypress": 0.1,
+        "pine": 0.1,
+        "bush": 0.1
+      },
+      "edge": {
+        "young": 0.4,
+        "bush": 0.35,
+        "light": 0.25
+      },
+      "north": {
+        "spruce": 0.4,
+        "pine": 0.25,
+        "broad": 0.15,
+        "light": 0.15,
+        "youngfir": 0.05
+      }
+    },
+    "taiga": {
+      "forest": true,
+      "mix": {
+        "spruce": 0.5,
+        "pine": 0.32,
+        "light": 0.08,
+        "youngfir": 0.1
+      },
+      "edge": {
+        "youngfir": 0.45,
+        "bush": 0.25,
+        "light": 0.3
+      }
+    },
+    "jungle": {
+      "forest": true,
+      "mix": {
+        "broad": 0.6,
+        "light": 0.2,
+        "bush": 0.2
+      },
+      "edge": {
+        "bush": 0.5,
+        "young": 0.5
+      }
+    },
+    "steppe": {
+      "groves": 0.12,
+      "solitary": 0.003,
+      "banks": 0.2,
+      "mix": {
+        "broad": 0.3,
+        "light": 0.2,
+        "bush": 0.45,
+        "dead": 0.05
+      },
+      "south": {
+        "broad": 0.2,
+        "bush": 0.5,
+        "cypress": 0.1,
+        "dead": 0.2
+      }
+    },
+    "dry": {
+      "groves": 0.1,
+      "solitary": 0.006,
+      "banks": 0.15,
+      "mix": {
+        "bush": 0.5,
+        "dead": 0.3,
+        "cypress": 0.2
+      }
+    },
+    "desert": {
+      "solitary": 0.001,
+      "banks": 0.15,
+      "mix": {
+        "bush": 0.6,
+        "dead": 0.4
+      }
+    },
+    "tundra": {
+      "groves": 0.08,
+      "solitary": 0.003,
+      "banks": 0.1,
+      "mix": {
+        "youngfir": 0.5,
+        "bush": 0.3,
+        "dead": 0.2
+      }
+    },
+    "farm": {
+      "hedges": 0.25,
+      "mix": {
+        "broad": 0.5,
+        "light": 0.3,
+        "bush": 0.2
+      }
+    },
+    "banks": {
+      "mix": {
+        "light": 0.3,
+        "bush": 0.4,
+        "young": 0.3
+      }
+    },
+    "mountain": {
+      "groves": 0.18,
+      "solitary": 0.01,
+      "mix": {
+        "spruce": 0.45,
+        "pine": 0.35,
+        "youngfir": 0.2
+      }
+    }
+  },
+  "forest": {
+    "density": 0.85,
+    "step": 1.5,
+    "massScale": 0.011,
+    "clearingScale": 0.035,
+    "clearings": 0.3,
+    "edgeRadius": 3,
+    "edgeNoiseScale": 0.12,
+    "edgeNoise": 0.45,
+    "patchScale": 0.03,
+    "dominance": 0.7,
+    "groveScale": 0.06,
+    "groveThreshold": 0.64,
+    "bankScale": 0.08,
+    "bankThreshold": 0.58
+  },
+  "limits": {
+    "maxSlope": 2.4,
+    "treeline": [0.3, 0.46],
+    "mountain": [0.12, 0.42],
+    "waterGap": 0.7
+  },
+  "clearance": {
+    "road": 0.5,
+    "bridge": 2.5,
+    "settlement": 0.8,
+    "village": 3,
+    "falloff": 6,
+    "wobble": 2.5
+  },
+  "rocks": {
+    "step": 9,
+    "slopes": 0.5,
+    "banks": 0.16,
+    "rocky": 0.14,
+    "open": 0.02,
+    "footRadius": 6,
+    "footRise": 2.5,
+    "bigChance": 0.45,
+    "count": [2, 6],
+    "bigScale": [1.5, 2.1],
+    "smallScale": [0.45, 0.9],
+    "spread": [0.8, 2.6],
+    "sink": 0.3,
+    "tilt": 8
+  },
+  "boulders": {
+    "step": 40,
+    "beach": 0.35,
+    "foot": 0.3,
+    "forest": 0.15,
+    "scale": [2.8, 4],
+    "sink": 0.25,
+    "tilt": 6
+  },
+  "testSites": [
+    {
+      "name": "town",
+      "lon": 0.84,
+      "lat": 47.45
+    },
+    {
+      "name": "forest_edge",
+      "lon": 12.45,
+      "lat": 58.08
+    },
+    {
+      "name": "mountain",
+      "lon": 17.58,
+      "lat": 50.0
+    },
+    {
+      "name": "steppe",
+      "lon": 65.78,
+      "lat": 53.5
+    }
+  ]
+}

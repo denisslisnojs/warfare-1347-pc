@@ -1,0 +1,28 @@
+{
+ "goods": [
+  {"id": "grain", "name": "Зерно", "nameEn": "Grain", "price": 20, "icon": "good_grain"},
+  {"id": "flour", "name": "Мука", "nameEn": "Flour", "price": 26, "icon": "good_flour"},
+  {"id": "bread", "name": "Хлеб", "nameEn": "Bread", "price": 15, "icon": "good_bread"},
+  {"id": "apples", "name": "Яблоки", "nameEn": "Apples", "price": 18, "icon": "good_apples"},
+  {"id": "cheese", "name": "Сыр", "nameEn": "Cheese", "price": 40, "icon": "good_cheese"},
+  {"id": "fish", "name": "Сушёная рыба", "nameEn": "Dried fish", "price": 28, "icon": "good_fish"},
+  {"id": "meat", "name": "Мясо", "nameEn": "Meat", "price": 35, "icon": "good_meat"},
+  {"id": "salt", "name": "Соль", "nameEn": "Salt", "price": 45, "icon": "good_salt"},
+  {"id": "honey", "name": "Мёд", "nameEn": "Honey", "price": 55, "icon": "good_honey"},
+  {"id": "wine", "name": "Вино", "nameEn": "Wine", "price": 70, "icon": "good_wine"},
+  {"id": "ale", "name": "Эль", "nameEn": "Ale", "price": 30, "icon": "good_ale"},
+  {"id": "oil", "name": "Оливковое масло", "nameEn": "Olive oil", "price": 60, "icon": "good_oil"},
+  {"id": "iron_ore", "name": "Железная руда", "nameEn": "Iron ore", "price": 30, "icon": "good_iron_ore"},
+  {"id": "iron", "name": "Железо", "nameEn": "Iron", "price": 80, "icon": "good_iron"},
+  {"id": "copper", "name": "Медь", "nameEn": "Copper", "price": 70, "icon": "good_copper"},
+  {"id": "charcoal", "name": "Древесный уголь", "nameEn": "Charcoal", "price": 22, "icon": "good_charcoal"},
+  {"id": "tools", "name": "Инструменты", "nameEn": "Tools", "price": 120, "icon": "good_tools"},
+  {"id": "timber", "name": "Строевой лес", "nameEn": "Timber", "price": 25, "icon": "good_timber"},
+  {"id": "wool", "name": "Шерсть", "nameEn": "Wool", "price": 50, "icon": "good_wool"},
+  {"id": "leather", "name": "Кожа", "nameEn": "Leather", "price": 70, "icon": "good_leather"},
+  {"id": "linen", "name": "Льняное полотно", "nameEn": "Linen", "price": 60, "icon": "good_linen"},
+  {"id": "cloth", "name": "Сукно", "nameEn": "Woollen cloth", "price": 110, "icon": "good_cloth"},
+  {"id": "silk", "name": "Шёлк", "nameEn": "Silk", "price": 260, "icon": "good_silk"},
+  {"id": "spices", "name": "Пряности", "nameEn": "Spices", "price": 320, "icon": "good_spices"}
+ ]
+}

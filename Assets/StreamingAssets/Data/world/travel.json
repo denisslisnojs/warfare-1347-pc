@@ -1,0 +1,22 @@
+{
+  "secondsPerDay": 10,
+  "speeds": [1, 2, 4],
+  "partySpeed": 86.4,
+  "maxCost": 3,
+  "road": 0.7,
+  "hills": 0.8,
+  "rockLimit": 0.5,
+  "startHour": 8,
+  "terrain": {
+    "grass": 1.0,
+    "forest": 1.45,
+    "taiga": 1.6,
+    "steppe": 0.85,
+    "dry": 1.05,
+    "desert": 1.6,
+    "tundra": 1.7,
+    "snow": 2.4,
+    "jungle": 1.9,
+    "farm": 0.9
+  }
+}

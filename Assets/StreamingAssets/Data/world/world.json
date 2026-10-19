@@ -1,0 +1,32 @@
+{
+ "width": 1765,
+ "height": 1176,
+ "fullWidth": 2308,
+ "fullHeight": 1416,
+ "colorScale": 2,
+ "lonMin": -12.0,
+ "lonMax": 92.0,
+ "latMin": 22.0,
+ "latMax": 71.0,
+ "pxPerDegLat": 24,
+ "lonFactor": 0.7071,
+ "heightMin": -0.12,
+ "heightMax": 1.0,
+ "rockHeight": [
+  9.0,
+  15.0
+ ],
+ "biomes": {
+  "sea": 0,
+  "grass": 1,
+  "forest": 2,
+  "taiga": 3,
+  "steppe": 4,
+  "dry": 5,
+  "desert": 6,
+  "tundra": 7,
+  "snow": 8,
+  "jungle": 9,
+  "farm": 10
+ }
+}

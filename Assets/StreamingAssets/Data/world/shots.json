@@ -1,0 +1,12 @@
+{
+ "tag": "gates2",
+ "settlements": [
+  "monreval",
+  "valcourt",
+  "rocheval"
+ ],
+ "distances": [
+  45
+ ],
+ "yaw": 30
+}

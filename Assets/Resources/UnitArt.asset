@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75f32e56cbb99774eace0380bd7aa8bd, type: 3}
+  m_Name: UnitArt
+  m_EditorClassIdentifier: Warfare.Client::Warfare.Client.UnitArt
+  Infantry: {fileID: 919132149155446097, guid: d43b8f9a492b5214da9ee8002c27d1c6, type: 3}
+  Sword: {fileID: 919132149155446097, guid: 56efff0343280bd4aa664225288cdd3a, type: 3}
+  Shield: {fileID: 919132149155446097, guid: 138ac6d8b75ec454eae074bb35a2a97a, type: 3}
+  Spear: {fileID: 919132149155446097, guid: 8c44e9986b8a4264594d8a2e5822bca3, type: 3}
+  Controller: {fileID: 9100000, guid: 1e46bec8906c7dd4eb4e5e2f0229c9f1, type: 2}
+  Idle:
+  - State: Idle0
+    Length: 2.5333335
+    SideSpeed: -0.000015894417
+    ForwardSpeed: 0.000030553805
+  - State: Idle1
+    Length: 8.666667
+    SideSpeed: 0.000007076468
+    ForwardSpeed: 0.000034324337
+  - State: Idle2
+    Length: 7.533334
+    SideSpeed: -0.0000011351046
+    ForwardSpeed: 0.000009340048
+  - State: Idle3
+    Length: 3.6666667
+    SideSpeed: -0.000002435036
+    ForwardSpeed: -0.000014943257
+  Walk:
+  - State: Walk0
+    Length: 1.1
+    SideSpeed: -0.000026523694
+    ForwardSpeed: -0.0000000718981
+  - State: Walk1
+    Length: 1.2666668
+    SideSpeed: -0.00000911057
+    ForwardSpeed: 0.00000006183982
+  Run:
+  - State: Run0
+    Length: 0.53333336
+    SideSpeed: -0.0000455223
+    ForwardSpeed: 0.000009066239
+  - State: Run1
+    Length: 0.70000005
+    SideSpeed: -0.00007288307
+    ForwardSpeed: 0.0000025749207
+  Attack:
+  - State: Attack0
+    Length: 1.6666667
+    SideSpeed: -0.000000004842877
+    ForwardSpeed: 0.00000007227063
+  - State: Attack1
+    Length: 1.5000001
+    SideSpeed: 0.000000015646219
+    ForwardSpeed: 0.0000000059604646
+  Impact:
+  - State: Impact0
+    Length: 0.9666667
+    SideSpeed: 0.00005322583
+    ForwardSpeed: -0.000038548373
+  - State: Impact1
+    Length: 0.7666667
+    SideSpeed: 0.00000052843245
+    ForwardSpeed: 0.000004040822
+  - State: Impact2
+    Length: 0.70000005
+    SideSpeed: 0.000004984811
+    ForwardSpeed: -0.000013169646
+  Death:
+  - State: Death0
+    Length: 3.9
+    SideSpeed: 0.046281185
+    ForwardSpeed: 0.23522131
+  - State: Death1
+    Length: 2.3000002
+    SideSpeed: 0.0019818204
+    ForwardSpeed: -0.59684193
+  Block:
+  - State: Block0
+    Length: 0.5666667
+    SideSpeed: 0.08966718
+    ForwardSpeed: 0.42819756
+  BlockIdle:
+  - State: BlockIdle0
+    Length: 1.4000001
+    SideSpeed: -0.0000134491365
+    ForwardSpeed: -0.000013622921
+  Strafe:
+  - State: Strafe0
+    Length: 1.1333334
+    SideSpeed: 1.1977376
+    ForwardSpeed: 0.0021462827
+  - State: Strafe1
+    Length: 1.3000001
+    SideSpeed: -1.0596938
+    ForwardSpeed: -0.0019186989
+  StrafeSpeed: 1.6
+  WalkSpeed: 1.3
+  RunSpeed: 3.2

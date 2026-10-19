@@ -1,0 +1,11 @@
+{
+  "name": "warfare1347-export-data",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export": "tsx export.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0"
+  }
+}
